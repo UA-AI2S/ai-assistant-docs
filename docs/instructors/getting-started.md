@@ -2,7 +2,7 @@
 
 ## Fill out the Course/Team Setup Form
 
-To start the process to create a course or team in AI-Verde, you can fill out our form here: https://forms.gle/i4RyrTKpG2trRZ1i9
+To start the process to create a course or team in AI-Verde, please send an email to aiverde@cyverse.org.
 
 ## What Happens Next
 
@@ -14,5 +14,5 @@ Once you submit the form:
 
 ## Contact and Feedback
 
-If you are happy with AI-VERDE, we’d love your feedback!  
+If you are happy with AI-VERDE, we’d love your feedback!
 Please send comments or critiques to: aiverde@cyverse.org

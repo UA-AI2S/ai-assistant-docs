@@ -4,7 +4,11 @@ You can follow these instructions to use your VERDE API Key after installing Cla
 
 !!! Note
 
-    These instructions assume you are using a space that is connected to Anthropic models. If you need access to Claude Code using a non-Anthropic model, then use the instructions for Claude Code Router.
+    These instructions assume you are using a space that is connected to Anthropic models (Fable/Opus/Sonnet/Haiku from Anthropic, Azure or other providers with Anthropic-style APIs). If you need access to Claude Code using a non-Anthropic model, then see the [instructions here](api-key-claude-non-anthropic.md) or use [Claude Code Router](claude-code-router.md).
+
+!!! Note
+
+    If your model is hosted on AWS Bedrock, then see the [instructions here](aws_bedrock.md).
 
 ## Prerequisites
 

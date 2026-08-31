@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to AI Assistant, an open source platform that facilitates access to commercial and on-premise LLMs with budget and access controls. AI-VERDE stands for "AI Virtual Explorer for Research, Discovery, and Education". There are two pieces to AI-VERDE, the AI-VERDE chat interface and the [AI-VERDE API](api/index.md) (application programming interface)
+Welcome to the AI-VERDE, an open source platform that facilitates access to commercial and on-premise LLMs with budget and access controls. AI-VERDE stands for "AI Virtual Explorer for Research, Discovery, and Education". There are two pieces to AI-VERDE, the AI-VERDE chat interface and the [AI-VERDE API](api/index.md) (application programming interface)
 
 Our chat interface provides you with an interactive, AI-powered assistant designed to enhance your learning, research, and teaching experiences. Using cutting-edge language model technology from OpenAI, this interface allows you to engage with an advanced AI assistant capable of answering questions, offering explanations, and assisting with various tasks in real time.
 
