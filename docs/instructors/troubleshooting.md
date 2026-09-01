@@ -1,6 +1,6 @@
 #  Troubleshooting Guide
 
-This guide covers the most common issues instructors face when getting started, creating a course, and managing a course in AI-VERDE.
+This guide covers the most common issues instructors face when getting started, creating a course, and managing a course in the AI Assistant.
 
 
 ## Getting Started Issues
@@ -8,7 +8,7 @@ This guide covers the most common issues instructors face when getting started, 
 - **Can’t find the API key after creating it**  
   - OpenAI only shows the key once. If you lost it, return to the [API Keys page](https://platform.openai.com/account/api-keys) and generate a new one.  
 
-- **Stache entry not accessible to the AI-VERDE team**  
+- **Stache entry not accessible to the AI Assistant team**  
   - Double-check you shared the entry with all required addresses:  
     - edwins@arizona.edu  
     - iychoi@arizona.edu  

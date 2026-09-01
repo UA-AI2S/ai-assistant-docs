@@ -1,4 +1,4 @@
-# Obtaining your AI-VERDE API Kay
+# Obtaining your AI Assistant API Key
 
 ## 1. Sign In
 

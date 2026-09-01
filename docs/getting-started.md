@@ -1,13 +1,13 @@
-# Getting Started with AI-VERDE Chat
+# Getting Started with AI Assistant Chat
 
-This guide will help you get up and running quickly, so you can start making the most out of your experience with our AI-VERDE Chat.
+This guide will help you get up and running quickly, so you can start making the most out of your experience with the AI Assistant Chat.
 
 ## 1. Sign In
 
-Before using the AI-VERDE chat interface, ensure you are signed in with your institution's credentials.
+Before using the AI Assistant chat interface, ensure you are signed in with your institution's credentials.
 
 !!! Note
-    AI-VERDE is currently only available to the University of Arizona community
+    The AI Assistant is currently only available to the University of Arizona community
 
 1. Go to [https://chat.cyverse.ai/](https://chat.cyverse.ai/){target=_new}.
 2. Click **Sign In** button.
@@ -24,7 +24,7 @@ Once signed in, find your course or team card and click on the chat button.
 
 ## 2. Ask Your First Question
 
-After clicking on the course or team card, the page will show a text box where you can interact with AI-VERDE. You can then:
+After clicking on the course or team card, the page will show a text box where you can interact with the AI Assistant. You can then:
 
 - **Type a question** directly in the chat box (e.g., "Why is the sky blue?").
 - **Press Send** to submit.
@@ -55,4 +55,3 @@ You can ask follow-up questions for further clarification, request examples, or 
 If you encounter issues or have suggestions, reach out to our support team using the built-in support chat:
 
 ![support button](assets/contact_support.png){: style="width:50%"}
-

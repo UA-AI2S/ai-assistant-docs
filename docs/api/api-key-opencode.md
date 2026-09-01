@@ -4,8 +4,8 @@
 
 ## Prerequisites
 
-1. Your VERDE course or team must be configured to use Anthropic models (see instructor or team lead)
-2. Obtain your VERDE API Key. [Instructions can be found here](api-token.md)
+1. Your AI Assistant course or team must be configured to use Anthropic models (see instructor or team lead)
+2. Obtain your AI Assistant API Key. [Instructions can be found here](api-token.md)
 3. Install OpenCode. Instructions can be found here, https://opencode.ai/
 4. The remaining instructions assume you have an open terminal on system with OpenCode and bash installed.
 
@@ -15,15 +15,15 @@ OpenCode uses a configuration file to define custom providers and models. The co
 - (Mac/Linux) `~/.config/opencode/opencode.json`
 - (Mac/Linux)`~/.config/opencode/opencode.jsonc` (`jsonc` is a superset of `json` that allows comments)
 
-Here is an example configuration file for OpenCode that uses the AI-VERDE provider and models:
+Here is an example configuration file for OpenCode that uses the AI Assistant provider and models:
 ```jsonc
 {
   "provider": {
     "litellm": { // this is identifier for the provider, you can choose any name you like, need to be unique in the provider list
-      "name": "AI-Verde", // this is the display name of the provider (what is shown by the `/model` command), you can choose any name you like
+      "name": "AI Assistant", // this is the display name of the provider (what is shown by the `/model` command), you can choose any name you like
       "npm": "@ai-sdk/openai-compatible", // this is the npm package that provides the provider's API, use `@ai-sdk/openai-compatible` unless you know what you are doing
       "models": {
-        "gpt-oss-120b": { // this is the model name shown in AI-Verde
+        "gpt-oss-120b": { // this is the model name shown in the AI Assistant
             "name": "my-gpt-oss-120b" // this is the display name of the model (what is shown by the `/model` command), you can choose any name you like
         },
         "gemma-4-26b-a4b": {
@@ -31,8 +31,8 @@ Here is an example configuration file for OpenCode that uses the AI-VERDE provid
         }
       },
       "options": {
-        "apiKey": "sk-xxxxxxxxxxxxxxxxxxxxxx", // replace this with your AI-VERDE API Key
-        "baseURL": "https://llm-api.cyverse.ai/v1", // this is the base URL for AI-VERDE, copy-paste from the same page where you got your API Key
+        "apiKey": "sk-xxxxxxxxxxxxxxxxxxxxxx", // replace this with your AI Assistant API Key
+        "baseURL": "https://llm-api.cyverse.ai/v1", // this is the base URL for the AI Assistant, copy-paste from the same page where you got your API Key
         "timeout": 600000 // optional, this is the timeout in milliseconds for API requests, default is 600000 (10 minutes)
       }
     }
@@ -52,4 +52,4 @@ Use `/model` command to select the model you want to use. You can also use `/mod
 
 ## If you need to change your API Key
 
-If for some reason you need to change your VERDE API Key, you can simply replace your api key in the configuration file in step 1.
+If for some reason you need to change your AI Assistant API Key, you can simply replace your api key in the configuration file in step 1.

@@ -1,1 +1,1 @@
-# Examples of using your AI-VERDE API Token in Android
+# Examples of using your AI Assistant API Token in Android

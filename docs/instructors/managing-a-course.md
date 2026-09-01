@@ -1,6 +1,6 @@
-# Managing a Course in AI-VERDE
+# Managing a Course in the AI Assistant
 
-Once your course has been created, you’ll find it listed in your AI-VERDE dashboard.  From here, instructors can update course details, manage members, monitor usage, and design AI-powered learning activities.
+Once your course has been created, you’ll find it listed in your AI Assistant dashboard.  From here, instructors can update course details, manage members, monitor usage, and design AI-powered learning activities.
 
 
 ## Course Overview
@@ -37,7 +37,7 @@ Features:
 
 
 ## Budget and Usage
-AI-VERDE resources are tied to a budget, managed in coordination with the CyVerse team.  
+AI Assistant resources are tied to a budget, managed in coordination with the CyVerse team.  
 
 - **Budgets are set by CyVerse**  
   - Instructors cannot adjust the total budget, but can request changes via support.  
@@ -56,7 +56,7 @@ The **Prompts feature** lets instructors design and share structured prompts for
 How to use it:
 1. Go to the Prompts tab.  
 2. Write a prompt (e.g., “Summarize today’s lecture into 5 key points”).  
-3. Sharing the prompt is automatic, members can generate AI responses inside Verde.  
+3. Sharing the prompt is automatic, members can generate AI responses inside the AI Assistant.  
 4. Review outputs to ensure alignment with learning goals.  
 
 *This feature helps standardize assignments and ensures all students are working from the same AI instructions.*  
@@ -64,14 +64,14 @@ How to use it:
 
 
 ## API Keys and Integrations
-Instructors can extend Verde beyond the platform using API keys.  
+Instructors can extend the AI Assistant beyond the platform using API keys.  
 
 - **Generate API keys**  
-  - Useful for advanced workflows, automation, or integrating Verde with other systems.  
-- **Export AI-VERDE outputs**  
-  - Save or send results from Verde to external platforms (e.g., LMS, research tools, or data analysis environments).  
+  - Useful for advanced workflows, automation, or integrating the AI Assistant with other systems.  
+- **Export AI Assistant outputs**  
+  - Save or send results from the AI Assistant to external platforms (e.g., LMS, research tools, or data analysis environments).  
 - **Why this matters:**  
-  - Keeps Verde flexible, fitting into your department’s existing tools rather than operating as an isolated system.  
+  - Keeps the AI Assistant flexible, fitting into your department’s existing tools rather than operating as an isolated system.  
 
 
 ## Troubleshooting While Managing

@@ -1,1 +1,1 @@
-# Using AI-VERDE Chat History
+# Using AI Assistant Chat History

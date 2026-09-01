@@ -1,1 +1,1 @@
-# Examples of using your AI-VERDE API Token in Jupyter
+# Examples of using your AI Assistant API Token in Jupyter

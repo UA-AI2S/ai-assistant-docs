@@ -1,8 +1,8 @@
 # Getting Started with OpenAI for Instructors
 
-Welcome! If you are new to AI-VERDE, this guide will walk you through the essential first steps to get up and running.
+Welcome! If you are new to the AI Assistant, this guide will walk you through the essential first steps to get up and running.
 
-Before you begin: please [Schedule Onboarding Session](https://outlook.office365.com/book/CyVerseAIVERDEOnboardingConsultation@emailarizona.onmicrosoft.com/?ae=true&login_hint&ismsaljsauthenabled=true) meeting with an AI-VERDE team coordinator.
+Before you begin: please [Schedule Onboarding Session](https://outlook.office365.com/book/CyVerseAIVERDEOnboardingConsultation@emailarizona.onmicrosoft.com/?ae=true&login_hint&ismsaljsauthenabled=true) meeting with an AI Assistant team coordinator.
 
 
 ## 1. Obtain an OpenAI Key
@@ -25,7 +25,7 @@ Having trouble getting started? Here are the most common issues instructors face
 
 - **Can’t find the API key after creating it** → OpenAI only shows the key once. If you lost it, go back to the [API Keys page](https://platform.openai.com/account/api-keys) and create a new one.  
 
-- **Stache entry not accessible to the AI-VERDE team** → Double-check that you shared the entry with all required addresses.
+- **Stache entry not accessible to the AI Assistant team** → Double-check that you shared the entry with all required addresses.
 
 ## Next Step: Gather Your Course Details  
 

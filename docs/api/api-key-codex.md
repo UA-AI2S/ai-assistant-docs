@@ -1,11 +1,11 @@
 # Codex
 
-You can follow these instructions to use your VERDE API Key after installing Codex. More information on using Codex can be found here, https://docs.anthropic.com/en/docs/intro.
+You can follow these instructions to use your AI Assistant API Key after installing Codex. More information on using Codex can be found here, https://docs.anthropic.com/en/docs/intro.
 
 ## Prerequisites
 
-1. Your VERDE course or team must be configured to use Anthropic models (see instructor or team lead)
-2. Obtain your VERDE API Key. [Instructions can be found here](api-token.md)
+1. Your AI Assistant course or team must be configured to use Anthropic models (see instructor or team lead)
+2. Obtain your AI Assistant API Key. [Instructions can be found here](api-token.md)
 3. Install Codex. Instructions can be found here, https://github.com/openai/codex
 4. The remaining instructions assume you have an open terminal on system with Codex and bash installed.
 
@@ -80,10 +80,10 @@ trust_level = "trusted"
 "gpt-5.6-sol" = 1
 ```
 
-Export the following environment variables before launching Codex (replacing `<your-ai-verde-api-key>` with your VERDE API Key).
+Export the following environment variables before launching Codex (replacing `<your-api-key>` with your AI Assistant API Key).
 
 ```bash
-export VERDE_API_KEY="<your-ai-verde-api-key>"
+export VERDE_API_KEY="<your-api-key>"
 ```
 
 To avoid re-entering this each session, add the line to your shell profile (e.g. `~/.bashrc` or `~/.zshrc`). Then, you can source your shell profile.
@@ -97,4 +97,4 @@ codex
 
 ## If you need to change your `VERDE_API_KEY`
 
-If for some reason you need to change your VERDE API Key, simply re-set the `VERDE_API_KEY` environment variable, then restart Codex.
+If for some reason you need to change your AI Assistant API Key, simply re-set the `VERDE_API_KEY` environment variable, then restart Codex.

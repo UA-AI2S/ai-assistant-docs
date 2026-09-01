@@ -1,1 +1,1 @@
-# Examples of using your AI-VERDE API Token in Windows Desktop
+# Examples of using your AI Assistant API Token in Windows Desktop
