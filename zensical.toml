@@ -11,13 +11,13 @@
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "AI-VERDE Manual & Resource Site"
+site_name = "University of Arizona AI Assistant"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "This site serves as the manual and resource site for AI-VERDE (aka VERDE), our classroom chatbot, providing guides for using the service."
+site_description = "Manual and resource site for the University of Arizona's AI Assistant, providing guides for using the chat interface and API."
 
 # The site_author attribute. This is used in the HTML head element.
 #
@@ -27,7 +27,7 @@ site_author = "CyVerse and Data Science Institute"
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
 # Read more: https://zensical.org/docs/setup/basics/#site_url
-site_url = "https://aiverde-docs.cyverse.ai"
+site_url = "https://ua-ai2s.github.io/ai-assistant-docs/"
 
 # The copyright notice appears in the page footer and can contain an HTML
 # fragment.
@@ -35,22 +35,22 @@ site_url = "https://aiverde-docs.cyverse.ai"
 # Read more: https://zensical.org/docs/setup/basics/#copyright
 copyright = "Copyright &copy; 2025 CyVerse"
 
-repo_name = "AI-VERDE Docs"
-repo_url = "https://github.com/CyVerse-learning-materials/verde-docs"
+repo_name = "AI Assistant Docs"
+repo_url = "https://github.com/UA-AI2S/ai-assistant-docs"
 edit_uri = "edit/main/docs/"
 
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-  { "AI-VERDE Chat" = [
+  { "AI Assistant Chat" = [
     { "Welcome" = "index.md" },
     { "Getting Started" = "getting-started.md" },
     { "Current CyVerse Models" = "models-current.md" },
     { "Chat History" = "chat-history.md" },
   ]},
-  { "AI-VERDE API" = [
+  { "AI Assistant API" = [
     { "Getting Started" = [
-      { "What is the AI-VERDE API" = "api/index.md" },
-      { "Obtaining your AI-VERDE API Key" = "api/api-token.md" },
+      { "What is the AI Assistant API" = "api/index.md" },
+      { "Obtaining your AI Assistant API Key" = "api/api-token.md" },
       { "Getting a List of Models" = "api/api-key-models.md" },
     ]},
     { "Using Your API Key in Code" = [
