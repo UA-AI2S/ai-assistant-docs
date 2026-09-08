@@ -41,13 +41,16 @@ edit_uri = "edit/main/docs/"
 
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-  { "AI Assistant Chat" = [
+  { "User Guide" = [
     { "Welcome" = "index.md" },
     { "Getting Started" = "getting-started.md" },
     { "Current CyVerse Models" = "models-current.md" },
     { "Chat History" = "chat-history.md" },
   ]},
-  { "AI Assistant API" = [
+  { "For Instructors" = [
+    { "Getting Started" = "instructors/getting-started.md" },
+  ]},
+  { "For Developers" = [
     { "Getting Started" = [
       { "What is the AI Assistant API" = "api/index.md" },
       { "Obtaining your AI Assistant API Key" = "api/api-token.md" },
@@ -72,9 +75,6 @@ nav = [
   ]},
   { "FAQ" = [
     { "FAQ" = "faq.md" },
-  ]},
-  { "For Instructors (and staff)" = [
-    { "Getting Started" = "instructors/getting-started.md" },
   ]},
 ]
 
