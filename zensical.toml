@@ -41,10 +41,14 @@ edit_uri = "edit/main/docs/"
 
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-  { "User Guide" = [
+  { "Home" = [
     { "Welcome" = "index.md" },
+    { "About AI Assistant" = "about.md" },
+    { "Current Models" = "models-current.md" },
+    { "FAQ" = "faq.md" },
+  ]},
+  { "For Users" = [
     { "Getting Started" = "getting-started.md" },
-    { "Current CyVerse Models" = "models-current.md" },
     { "Chat History" = "chat-history.md" },
   ]},
   { "For Instructors" = [
@@ -72,9 +76,6 @@ nav = [
     { "Using Desktop Clients" = [
       { "ChatboxAI.app" = "api/chatboxai.md" },
     ]},
-  ]},
-  { "FAQ" = [
-    { "FAQ" = "faq.md" },
   ]},
 ]
 

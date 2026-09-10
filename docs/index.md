@@ -1,16 +1,34 @@
-# Welcome!
+# Welcome
 
-## Introduction
+The University of Arizona AI Assistant is an open source platform that provides access to commercial and on-premise large language models (LLMs) with built-in budget and access controls. It is designed for teams, labs, and courses at the University of Arizona.
 
-Welcome to the University of Arizona's AI Assistant, an open source platform that facilitates access to commercial and on-premise LLMs with budget and access controls. There are two pieces to the AI Assistant: the [chat interface](#key-features) and the [AI Assistant API](api/index.md) (application programming interface).
+## Find Your Section
 
-Our chat interface provides you with an interactive, AI-powered assistant designed to enhance your learning, research, and teaching experiences. Using cutting-edge language model technology from OpenAI, this interface allows you to engage with an advanced AI assistant capable of answering questions, offering explanations, and assisting with various tasks in real time.
+<div class="grid cards" markdown>
 
-## Key Features:
+- :material-account: **For Users**
 
-- **Interactive Q&A**: Simply type your question, and the assistant will provide clear, concise answers on a wide range of topics.
-- **Designed for small teams and courses**: Use the AI Assistant for small teams, labs, and courses
-- **Bring Your Own (BYO) LLM**: Instructors and team leads can optionally bring their own commercial or third-party LLM to the AI Assistant or use CyVerse's on-premise LLMs
-- **Built for Retrieval-Augmented Generation (RAG)**: Instructors and team leads can optionally configure the AI Assistant to provide answers strictly from source documents
-- **Budgets management and cost savings**: If you're using commercial services, tokens cost money. Use the AI Assistant to control model access, set budgets at the course or team, and to set budgets per individual.
-- **Built-in Guardrails**: Ensure the responsible, safe, and effective use of the AI Assistant within your team and course
+    Get started with the AI Assistant — sign in, find your workspace, and get your API key.
+
+    [:octicons-arrow-right-24: Getting Started](getting-started.md)
+
+- :material-code-tags: **For Developers**
+
+    Integrate the AI Assistant API into your applications, scripts, and tools.
+
+    [:octicons-arrow-right-24: API Documentation](api/index.md)
+
+- :material-school: **For Instructors**
+
+    Set up and manage workspaces for your courses and teams.
+
+    [:octicons-arrow-right-24: Instructor Guide](instructors/getting-started.md)
+
+</div>
+
+## Quick Links
+
+- [Getting Access](getting-access.md) — How to request access to the AI Assistant
+- [Current Models](models-current.md) — Available LLMs on the platform
+- [FAQ](faq.md) — Frequently asked questions
+- [Contact Support](#) — Use the support chat at [chat.cyverse.ai](https://chat.cyverse.ai/)
