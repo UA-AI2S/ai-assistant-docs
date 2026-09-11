@@ -44,6 +44,7 @@ nav = [
   { "Home" = [
     { "Welcome" = "index.md" },
     { "About AI Assistant" = "about.md" },
+    { "Getting Access" = "getting-access.md" },
     { "Current Models" = "models-current.md" },
     { "FAQ" = "faq.md" },
   ]},
