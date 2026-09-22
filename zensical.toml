@@ -42,41 +42,29 @@ edit_uri = "edit/main/docs/"
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
   { "Home" = [
-    { "Welcome" = "index.md" },
+    { "Welcome" = "welcome.md" },
     { "About AI Assistant" = "about.md" },
     { "Getting Access" = "getting-access.md" },
     { "Current Models" = "models-current.md" },
     { "FAQ" = "faq.md" },
   ]},
   { "For Users" = [
-    { "Getting Started" = "getting-started.md" },
+    { "Overview" = "getting-started.md" },
+    { "Obtaining Your API Key" = "api/api-token.md" },
+    { "Using Your API Key" = [
+      { "VSCode" = "api/api-token-vscode.md" },
+      { "Jupyter" = "api/api-token-jupyter.md" },
+      { "ChatboxAI.app" = "api/chatboxai.md" },
+      { "Claude Code Router" = "api/claude-code-router.md" },
+      { "Aider" = "api/aider.md" },
+      { "Claude Code (Anthropic Models)" = "api/api-key-claude.md" },
+      { "LangChain" = "api/api-token-langchain.md" },
+      { "LlamaIndex" = "api/api-token-llamaindex.md" },
+    ]},
     { "Chat History" = "chat-history.md" },
   ]},
   { "For Instructors" = [
     { "Getting Started" = "instructors/getting-started.md" },
-  ]},
-  { "For Developers" = [
-    { "Getting Started" = [
-      { "What is the AI Assistant API" = "api/index.md" },
-      { "Obtaining your AI Assistant API Key" = "api/api-token.md" },
-      { "Getting a List of Models" = "api/api-key-models.md" },
-    ]},
-    { "Using Your API Key in Code" = [
-      { "LangChain" = "api/api-token-langchain.md" },
-      { "LlamaIndex" = "api/api-token-llamaindex.md" },
-    ]},
-    { "Using CLI Coding Assistants" = [
-      { "Claude Code Router" = "api/claude-code-router.md" },
-      { "Aider" = "api/aider.md" },
-      { "Claude Code (using Anthropic Models)" = "api/api-key-claude.md" },
-    ]},
-    { "Using IDEs" = [
-      { "VSCode" = "api/api-token-vscode.md" },
-      { "Jupyter" = "api/api-token-jupyter.md" },
-    ]},
-    { "Using Desktop Clients" = [
-      { "ChatboxAI.app" = "api/chatboxai.md" },
-    ]},
   ]},
 ]
 
