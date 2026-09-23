@@ -21,7 +21,7 @@ approvals_reviewer = "user" # change this if you want to adjust the reviewer for
 
 [model_providers.verde]
 name = "verde"
-base_url = "https://llm-api.cyverse.ai/v1"
+base_url = "https://ai-assistant.ai2s.org/v1"
 env_key = "VERDE_API_KEY"
 wire_api = "responses"
 stream_idle_timeout_ms = 7200000
@@ -58,7 +58,7 @@ approvals_reviewer = "user"
 
 [model_providers.verde]
 name = "verde"
-base_url = "https://llm-api.cyverse.ai/v1"
+base_url = "https://ai-assistant.ai2s.org/v1"
 env_key = "VERDE_API_KEY"
 wire_api = "responses"
 stream_idle_timeout_ms = 7200000

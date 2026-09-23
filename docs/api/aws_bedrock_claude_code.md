@@ -15,7 +15,7 @@ Export the following environment variables before launching claude code.
 
 ```bash
 export ANTHROPIC_AUTH_TOKEN="<your-api-key>"
-export ANTHROPIC_BEDROCK_BASE_URL=https://llm-api.cyverse.ai/bedrock
+export ANTHROPIC_BEDROCK_BASE_URL=https://ai-assistant.ai2s.org/bedrock
 export CLAUDE_CODE_SKIP_BEDROCK_AUTH=1
 export CLAUDE_CODE_USE_BEDROCK=1
 export ANTHROPIC_DEFAULT_OPUS_MODEL="<model name for opus>"
@@ -27,7 +27,7 @@ For example:
 
 ```bash
 export ANTHROPIC_AUTH_TOKEN="xyz"
-export ANTHROPIC_BEDROCK_BASE_URL=https://llm-api.cyverse.ai/bedrock
+export ANTHROPIC_BEDROCK_BASE_URL=https://ai-assistant.ai2s.org/bedrock
 export CLAUDE_CODE_SKIP_BEDROCK_AUTH=1
 export CLAUDE_CODE_USE_BEDROCK=1
 export ANTHROPIC_DEFAULT_OPUS_MODEL="my-team-claude-opus-4-6"

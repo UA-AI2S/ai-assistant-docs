@@ -42,7 +42,7 @@ edit_uri = "edit/main/docs/"
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
   { "Home" = [
-    { "Welcome" = "welcome.md" },
+    { "Welcome" = "index.md" },
     { "About AI Assistant" = "about.md" },
     { "Getting Access" = "getting-access.md" },
     { "Current Models" = "models-current.md" },

@@ -71,7 +71,7 @@ Open the appropriate file in a text editor:
 
 
 -  To test the token, use it in an API call:
-    ```curl -H "Authorization: Bearer $OPENAI_BASE_URL" https://chat.cyverse.ai/endpoint```
+    ```curl -H "Authorization: Bearer $OPENAI_BASE_URL" https://ai-assistant.ai2s.org/endpoint```
 
 ![authorization](../assets/curl-h-authorization.png){: style="width:50%"}
 

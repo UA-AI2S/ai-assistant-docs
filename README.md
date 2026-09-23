@@ -1,6 +1,6 @@
-# AI-VERDE Docs
+# AI-Assistant Docs
 
-Documentation site for AI-VERDE, built with [Zensical](https://zensical.org).
+Documentation site for AI-Assistant, built with [Zensical](https://zensical.org).
 
 ## Setup
 

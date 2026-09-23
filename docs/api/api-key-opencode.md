@@ -32,7 +32,7 @@ Here is an example configuration file for OpenCode that uses the AI Assistant pr
       },
       "options": {
         "apiKey": "sk-xxxxxxxxxxxxxxxxxxxxxx", // replace this with your AI Assistant API Key
-        "baseURL": "https://llm-api.cyverse.ai/v1", // this is the base URL for the AI Assistant, copy-paste from the same page where you got your API Key
+        "baseURL": "https://ai-assistant.ai2s.org/v1", // this is the base URL for the AI Assistant, copy-paste from the same page where you got your API Key
         "timeout": 600000 // optional, this is the timeout in milliseconds for API requests, default is 600000 (10 minutes)
       }
     }

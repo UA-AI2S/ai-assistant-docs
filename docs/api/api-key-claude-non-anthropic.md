@@ -19,7 +19,7 @@ Export the following environment variables before launching claude code. Note th
 
 ```bash
 export ANTHROPIC_API_KEY="<your-api-key>"
-export ANTHROPIC_BASE_URL="https://llm-api.cyverse.ai"
+export ANTHROPIC_BASE_URL="https://ai-assistant.ai2s.org"
 export ANTHROPIC_DEFAULT_OPUS_MODEL="<model name for opus-tier model>"
 export ANTHROPIC_DEFAULT_SONNET_MODEL="<model name for sonnet-tier model>"
 export ANTHROPIC_DEFAULT_HAIKU_MODEL="<model name for haiku-tier model>"
@@ -30,7 +30,7 @@ For example:
 
 ```bash
 export ANTHROPIC_API_KEY="sk-xxxxxxxxxxxxxxxxxxxxxx"
-export ANTHROPIC_BASE_URL="https://llm-api.cyverse.ai"
+export ANTHROPIC_BASE_URL="https://ai-assistant.ai2s.org"
 export ANTHROPIC_DEFAULT_OPUS_MODEL="gpt-oss-120b"
 export ANTHROPIC_DEFAULT_SONNET_MODEL="gemma-4-26b-a4b"
 export ANTHROPIC_DEFAULT_HAIKU_MODEL="gemma-4-26b-a4b"
@@ -39,7 +39,7 @@ export ANTHROPIC_MODEL="gpt-oss-120b"
 
 !!! Note
 
-    To obtain the AI Assistant Anthropic Base URL, simply remove `/v1` (e.g. `https://llm-api.cyverse.ai/v1` => `https://llm-api.cyverse.ai`).
+    To obtain the AI Assistant Anthropic Base URL, simply remove `/v1` (e.g. `https://ai-assistant.ai2s.org/v1` => `https://ai-assistant.ai2s.org`).
 
 To avoid re-entering this each session, add the line to your shell profile (e.g. `~/.bashrc` or `~/.zshrc`). Then, you can source your shell profile.
 
