@@ -1,57 +1,31 @@
-# Getting Started with AI Assistant Chat
+# Overview
 
-This guide will help you get up and running quickly, so you can start making the most out of your experience with the AI Assistant Chat.
+The AI Assistant gives you access to large language models (LLMs) through your University of Arizona account. Your instructor or team lead sets up a workspace, adds you as a member, and configures which models are available.
 
-## 1. Sign In
+## What You Can Do
 
-Before using the AI Assistant chat interface, ensure you are signed in with your institution's credentials.
+- **Use your API key with external tools** — Connect the AI Assistant to IDEs like VSCode, coding assistants like Claude Code and Aider, desktop clients like ChatboxAI, or any OpenAI-compatible tool or library.
+- **Chat with AI models** — Use the built-in web chat interface to ask questions and have conversations. *(Coming soon)*
 
-!!! Note
-    The AI Assistant is currently only available to the University of Arizona community
+## How It Works
 
-1. Go to [https://chat.cyverse.ai/](https://chat.cyverse.ai/){target=_new}.
-2. Click **Sign In** button.
-3. Select your institutional provider
-4. Click on the **Log On** button.
-5. Login using your institutional login process
-6. Click **Sign In**.
+Each workspace in AI Assistant has its own set of models, members, and budget. When you're added to a workspace, you get:
 
-## 2. Select Your Team or Course
+- An **API key** — a personal token that authenticates your requests
+- A **Base URL** — `https://api.cyverse.ai/` (or the URL shown on your API Key page)
+- Access to the **models** your workspace admin has enabled
 
-Once signed in, find your course or team card and click on the chat button.
+The AI Assistant API is **OpenAI-compatible**, which means any tool that works with OpenAI can connect to AI Assistant by swapping in your API key and base URL.
 
-![course chat button](assets/course_chat_button.png){: style="width:50%"}
+## Getting Started
 
-## 2. Ask Your First Question
+1. **Sign in** at [chat.cyverse.ai](https://chat.cyverse.ai/){target=_new} using your University of Arizona credentials.
+2. **Find your workspace** on the dashboard — click it to open.
+3. **Go to the API Key tab** to copy your API key and base URL.
+4. **Use your key** with any of the [supported tools and integrations](api/api-token-vscode.md), or with any OpenAI-compatible client.
 
-After clicking on the course or team card, the page will show a text box where you can interact with the AI Assistant. You can then:
+If you don't see a workspace, your instructor or team lead may need to add you. See [Getting Access](getting-access.md) for more details.
 
-- **Type a question** directly in the chat box (e.g., "Why is the sky blue?").
-- **Press Send** to submit.
-- **Receive a Response** within seconds, tailored to your query.
+## Support
 
-![course chat](assets/course_chat.png){: style="width:100%"}
-
-## 3. Continue the Conversation
-
-You can ask follow-up questions for further clarification, request examples, or explore related topics.
-
-#### Example:
-
-1. **Initial Question**: "Explain the concept of ecosystems in biology."
-2. **Follow-Up**: "Can you provide examples of different types of ecosystems?"
-3. **Further Detail**: "How does biodiversity impact ecosystem stability?"
-
----
-
-## Tips for Using the Chat Interface
-
-- **Be Specific**: Detailed questions yield the best responses.
-- **Explore Broadly**: If your team or course is not targeting specific documents, you can ask about a wide range of topics or request explanations for academic concepts.
-- **Engage in Multi-Step Conversations**: If you need deeper insights, use follow-up questions to refine the responses.
-
-## Support and Feedback
-
-If you encounter issues or have suggestions, reach out to our support team using the built-in support chat:
-
-![support button](assets/contact_support.png){: style="width:50%"}
+If you run into issues, use the built-in support chat at [chat.cyverse.ai](https://chat.cyverse.ai/) (click the chat icon in the bottom-right corner) or reach out to the CyVerse team.
