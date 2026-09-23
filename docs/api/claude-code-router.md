@@ -2,8 +2,8 @@
 You can follow these instructions to use your AI Assistant API Key after installing Claude Code and Claude Code Router. More information on installing and using Claude Code Router can be found here, https://github.com/musistudio/claude-code-router.
 
 ## Prerequisites
-1. Obtain your AI Assistant API Key. Instructions can be found here, https://ua-ai2s.github.io/ai-assistant-docs/api/api-token/
-2. Note the model(s) you want to configure for Claude Code. Instructions can be found here, https://ua-ai2s.github.io/ai-assistant-docs/api/api-key-models/.
+1. Obtain your AI Assistant API Key. Instructions can be found in [Obtaining your AI Assistant API Key](api-token.md).
+2. Note the model(s) you want to configure for Claude Code. Instructions can be found in [Getting a List of Models](api-key-models.md).
 3. Install Claude Code. Instructions can be found here, https://www.anthropic.com/claude-code/
 4. Install Claude Code Router. Instructions can be found here, https://github.com/musistudio/claude-code-router
 5. The remaining instructions assume you have an open terminal on system with Claude Code and bash installed.
