@@ -2,7 +2,7 @@
 
 ## 1. Sign In
 
-1. Go to [https://chat.cyverse.ai/](https://chat.cyverse.ai/){target=\_new}.
+1. Go to [https://ai-assistant.ai2s.org/](https://ai-assistant.ai2s.org/){target=\_new}.
 2. Click **Sign In**.
 3. Sign in with your NetID.
 

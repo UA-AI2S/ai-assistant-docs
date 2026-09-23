@@ -28,7 +28,7 @@ import os
 from anthropic import Anthropic
 
 client = Anthropic(
-    base_url="https://llm-api.cyverse.ai", # Replace with the AI Assistant base URL if different
+    base_url="https://ai-assistant.ai2s.org", # Replace with the AI Assistant base URL if different
     api_key=os.environ.get("ANTHROPIC_API_KEY"),
 )
 

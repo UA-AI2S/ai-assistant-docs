@@ -10,8 +10,8 @@ AWS Bedrock is Amazon's fully managed service for accessing foundation models fr
 
 Before connecting the AI Assistant to AI applications, you will need:
 
-- An **AI Assistant API key** — sign in at [chat.cyverse.ai](https://chat.cyverse.ai), open your course or team details, and copy the key from the **API Key** tab. See [Obtaining your AI Assistant API Key](api-token.md) for step-by-step instructions.
-- The **AI Assistant base URL**: `https://api.cyverse.ai/` (or the URL shown in your course details).
+- An **AI Assistant API key** — sign in at [ai-assistant.ai2s.org](https://ai-assistant.ai2s.org), open your course or team details, and copy the key from the **API Key** tab. See [Obtaining your AI Assistant API Key](api-token.md) for step-by-step instructions.
+- The **AI Assistant base URL**: `https://ai-assistant.ai2s.org` (or the URL shown in your course details).
 
 ## How It Works
 

@@ -17,4 +17,4 @@ Each workspace in AI Assistant represents a team or course. Workspace admins (ty
 
 ## Support
 
-If you have questions or run into issues, use the built-in support chat at [chat.cyverse.ai](https://chat.cyverse.ai/) or reach out to the CyVerse team.
+If you have questions or run into issues, use the built-in support chat at [ai-assistant.ai2s.org](https://ai-assistant.ai2s.org/) or reach out to the CyVerse team.

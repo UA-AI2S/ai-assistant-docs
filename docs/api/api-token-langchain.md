@@ -12,7 +12,7 @@ Obtaining your AI Assistant API key is outlined [here](/api/api-token/).
 
 You can obtain a list of the models you have access to with the following command; denoted by "id":
 ```bash
-curl -s -L "https://llm-api.cyverse.ai/v1/models" -H "Authorization: Bearer [AI Assistant API KEY]" -H 'Content-Type: application/json'|jq
+curl -s -L "https://ai-assistant.ai2s.org/v1/models" -H "Authorization: Bearer [AI Assistant API KEY]" -H 'Content-Type: application/json'|jq
 ```
 ## 3. Create python scripts
 ```python
@@ -21,7 +21,7 @@ from langchain_community.chat_models import ChatLiteLLM
 llm = ChatLiteLLM(
     model="litellm_proxy/[MODEL NAME]",
     api_key="[AI Assistant API KEY]",
-    api_base="https://llm-api.cyverse.ai")
+    api_base="https://ai-assistant.ai2s.org")
 
 print (llm.invoke("Hello, world!"))
 ```
@@ -42,7 +42,7 @@ from langchain_community.chat_models import ChatLiteLLM
 llm = ChatLiteLLM(
     model="litellm_proxy/[MODEL NAME]",
     api_key=api_key,
-    api_base="https://llm-api.cyverse.ai")
+    api_base="https://ai-assistant.ai2s.org")
 
 print (llm.invoke("Hello, world!"))
 ```

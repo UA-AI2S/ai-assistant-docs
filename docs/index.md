@@ -13,4 +13,4 @@ The University of Arizona AI Assistant is an open source platform that provides 
 - [About AI Assistant](about.md) — Platform overview and key features
 - [Current Models](models-current.md) — Available LLMs on the platform
 - [FAQ](faq.md) — Frequently asked questions
-- Contact Support — Use the support chat at [chat.cyverse.ai](https://chat.cyverse.ai/)
+- Contact Support — Use the support chat at [ai-assistant.ai2s.org](https://ai-assistant.ai2s.org/)

@@ -23,7 +23,7 @@ After running `ccr code`, you will be prompted to enter the minimum configuratio
 | ------| --------------------- | ----- |
 | Provider Name | `ai-verde` | any string works |
 | Provider API KEY | enter your AI Assistant API key | |
-| Provider URL | `https://llm-api.cyverse.ai/v1/chat/completions` | |
+| Provider URL | `https://ai-assistant.ai2s.org/v1/chat/completions` | |
 | MODEL Name | `<verde model name>` | replace `<verde model name>` with the model you'd like to use |
 
 After entering the MODEL name, you should see text similar to the following:

@@ -24,7 +24,7 @@ This step should only be needed the first time you use Claude Code.
 In a terminal, set the following environment variables and replace `ANTHROPIC_API_KEY` with your AI Assistant API Key.
 
 ```
-export ANTHROPIC_BASE_URL="https://llm-api.cyverse.ai"
+export ANTHROPIC_BASE_URL="https://ai-assistant.ai2s.org"
 export ANTHROPIC_API_KEY="insert-AI-Assistant-API-Key-here"
 export ANTHROPIC_MODEL="anthropic/claude-sonnet-4"
 ```

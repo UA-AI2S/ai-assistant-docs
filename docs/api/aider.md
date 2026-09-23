@@ -12,7 +12,7 @@ You can follow these instructions to use your AI Assistant API Key with Aider, s
 1. Create a `$HOME/.aider.conf.yml` file with the following contents
 ```
 openai-api-key: insert-your-aiverde-api-key
-openai-api-base: https://llm-api.cyverse.ai/v1
+openai-api-base: https://ai-assistant.ai2s.org/v1
 model: openai/insert-default-model
 ```
 2. Replace `insert-your-aiverde-api-key` with your AI Assistant API Key.
