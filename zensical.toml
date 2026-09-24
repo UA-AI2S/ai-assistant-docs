@@ -46,14 +46,14 @@ nav = [
     { "About AI Assistant" = "about.md" },
     { "Getting Access" = "getting-access.md" },
     { "Current Models" = "models-current.md" },
-    { "FAQ" = "faq.md" },
+    #{ "FAQ" = "faq.md" },
   ]},
   { "For Users" = [
     { "Overview" = "getting-started.md" },
     { "Obtaining Your API Key" = "api/api-token.md" },
     { "Using Your API Key" = [
       { "VSCode" = "api/api-token-vscode.md" },
-      { "Jupyter" = "api/api-token-jupyter.md" },
+      #{ "Jupyter" = "api/api-token-jupyter.md" },
       { "ChatboxAI.app" = "api/chatboxai.md" },
       { "Claude Code Router" = "api/claude-code-router.md" },
       { "Aider" = "api/aider.md" },
@@ -61,7 +61,7 @@ nav = [
       { "LangChain" = "api/api-token-langchain.md" },
       { "LlamaIndex" = "api/api-token-llamaindex.md" },
     ]},
-    { "Chat History" = "chat-history.md" },
+    #{ "Chat History" = "chat-history.md" },
   ]},
   { "For Instructors" = [
     { "Getting Started" = "instructors/getting-started.md" },
