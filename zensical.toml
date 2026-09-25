@@ -52,14 +52,22 @@ nav = [
     { "Overview" = "getting-started.md" },
     { "Obtaining Your API Key" = "api/api-token.md" },
     { "Using Your API Key" = [
-      { "VSCode" = "api/api-token-vscode.md" },
-      #{ "Jupyter" = "api/api-token-jupyter.md" },
-      { "ChatboxAI.app" = "api/chatboxai.md" },
-      { "Claude Code Router" = "api/claude-code-router.md" },
-      { "Aider" = "api/aider.md" },
-      { "Claude Code (Anthropic Models)" = "api/api-key-claude.md" },
-      { "LangChain" = "api/api-token-langchain.md" },
-      { "LlamaIndex" = "api/api-token-llamaindex.md" },
+      { "CLI Coding Assistants" = [
+        { "Claude Code (Anthropic Models)" = "api/api-key-claude.md" },
+        { "Claude Code Router" = "api/claude-code-router.md" },
+        { "Aider" = "api/aider.md" },
+      ]},
+      { "Desktop Clients" = [
+        { "ChatboxAI.app" = "api/chatboxai.md" },
+      ]},
+      #{ "IDEs" = [
+      #  { "VSCode" = "api/api-token-vscode.md" },
+      #  { "Jupyter" = "api/api-token-jupyter.md" },
+      #]},
+      { "Libraries" = [
+        { "LangChain" = "api/api-token-langchain.md" },
+        { "LlamaIndex" = "api/api-token-llamaindex.md" },
+      ]},
     ]},
     #{ "Chat History" = "chat-history.md" },
   ]},
