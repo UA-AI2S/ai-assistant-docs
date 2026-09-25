@@ -22,7 +22,7 @@ site_description = "Manual and resource site for the University of Arizona's AI 
 # The site_author attribute. This is used in the HTML head element.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_author
-site_author = "CyVerse and Data Science Institute"
+site_author = "Office of Responsible AI, The Universtity of Arizona"
 
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
@@ -33,7 +33,7 @@ site_url = "https://ua-ai2s.github.io/ai-assistant-docs/"
 # fragment.
 #
 # Read more: https://zensical.org/docs/setup/basics/#copyright
-copyright = "Copyright &copy; 2025 CyVerse"
+copyright = "&copy; 2026 The Arizona Board of Regents on behalf of The University of Arizona"
 
 repo_name = "AI Assistant Docs"
 repo_url = "https://github.com/UA-AI2S/ai-assistant-docs"
@@ -112,7 +112,7 @@ extra_css = ["stylesheets/extra.css"]
 # - https://zensical.org/docs/setup/logo-and-icons/#favicon
 # - https://developer.mozilla.org/en-US/docs/Glossary/Favicon
 #
-favicon = "assets/verde-letter-logo.png"
+favicon = "assets/saguaro-icon.svg"
 
 # Zensical supports more than 60 different languages. This means that the
 # labels and tooltips that Zensical's templates produce are translated.
@@ -273,7 +273,7 @@ features = [
 # option in the "theme" subsection. The logo must be a relative path to a file
 # in your "docs_dir", e.g., to use `docs/assets/logo.png` you would set:
 # ----------------------------------------------------------------------------
-logo = "assets/verde-letter-logo.png"
+logo = "assets/saguaro-icon.svg"
 
 # ----------------------------------------------------------------------------
 # If you don't have a dedicated project logo, you can use a built-in icon from

@@ -1,6 +1,13 @@
-[data-md-color-scheme="aiverde"] {
+[data-md-color-scheme="default"] {
     --md-primary-fg-color:  #15224b;
-    --md-accent-fg-color:   #2bb575;
-    /* --md-primary-fg-color--light: #2bb575;
-    --md-primary-fg-color--dark:  #15224b;   */
+    --md-accent-fg-color:   #0C234B;
+    --md-default-bg-color: #faf9f8;   /* page background */
   }
+
+[data-md-color-scheme="default"] .md-header {
+  background-color: #F2EFEA;
+}
+
+[data-md-color-scheme="slate"] .md-header {
+  background-color: #0b1330;
+}
