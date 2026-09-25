@@ -73,6 +73,10 @@ nav = [
   ]},
   { "For Instructors" = [
     { "Getting Started" = "instructors/getting-started.md" },
+    { "Managing a Workspace" = [
+      { "API Keys" = "instructors/api-keys.md" },
+      { "Workspace Settings" = "instructors/settings.md" },
+    ]},
   ]},
 ]
 
