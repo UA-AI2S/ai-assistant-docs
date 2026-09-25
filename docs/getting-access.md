@@ -1,6 +1,10 @@
 # Getting Access
 
-The AI Assistant is currently available to the University of Arizona community.
+AI Assistant is available to University of Arizona faculty, staff, and students.
+
+## Personal Workspace
+
+All U of A faculty, staff, and students get a monthly allocation of LLM usage via their Personal Workspace. To access, log in at [ai-assistant.ai2s.org](https://ai-assistant.ai2s.org/) and your Personal Workspace will be created automatically.
 
 ## Joining an Existing Workspace
 
