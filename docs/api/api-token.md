@@ -1,23 +1,55 @@
-# Obtaining your AI Assistant API Key
+# Obtaining Your AI Assistant API Key
+
+Your API key lets you connect to the AI Assistant from external tools, scripts, and IDEs using the OpenAI-compatible API.
 
 ## 1. Sign In
 
 1. Go to [https://ai-assistant.ai2s.org/](https://ai-assistant.ai2s.org/){target=\_new}.
-2. Click **Sign In**.
+2. Click **Login in with NetID**.
 3. Sign in with your NetID.
 
 ## 2. Select Your Team or Course
 
-Click the "Details" button:
+From the dashboard, find the team or workspace you want o use and click it. The below image is featuring your personal workspace.
 
-![Student Course Details Button](../assets/api_key_course_details_button_updated.png){: style="width:75%"}
+![Personal Workspace Button](../assets/api_key.png)
 
-## 3. Click the "API Key" tab:
+## 3. Open the API Token Tab
 
-![API Key tab](../assets/api_key_course_details_tab.png){: style="width:75%"}
+From the top bar, click the API Key tab.
 
-## 4. Copy and save your API key
+![API Key tab](../assets/api_key_tab.png)
 
-![Course Details Modal](../assets/api_key_course_details_api_token_tab.png){: style="width:75%"}
+## 4. Copy Your API Key
 
-The models available for your course will are listed in the "Available Models" section of the API Key page.
+The **API Token** page displays your personal API key. Click the eye icon to reveal it, or click the **copy** icon next to the key to copy it to your clipboard.
+
+![Copying your API key](../assets/api_key_tab_get_key.png)
+
+## 5. Check Your Available Models
+
+The **Available Models** section shows which models your course or workspace has access to. Use these model names exactly when making API calls.
+
+![Available models list](../assets/api_key_available_models.png)
+
+## 6. Use Your Key in Code
+
+Below the available models page is a section that highlights how you would use the API key. For quick use, you can copy the snippet below for your preferred tool of choice.
+
+![Code usage claude example](../assets/api_key_code_usage.png)
+
+## Next Steps
+
+Once you have your API key, see the guides below for using it in different environments:
+
+| Guide | Description |
+| ----- | ----------- |
+| **CLI Coding Assistants** | |
+| [Claude Code (Anthropic Models)](api-key-claude.md) | Using Claude models via the Anthropic SDK |
+| [Claude Code Router](claude-code-router.md) | Terminal-based AI coding assistant with model routing |
+| [Aider](aider.md) | AI pair programming in the terminal |
+| **Desktop Clients** | |
+| [ChatboxAI](chatboxai.md) | Desktop chat client |
+| **Libraries** | |
+| [LangChain](api-token-langchain.md) | Python integration with LangChain |
+| [LlamaIndex](api-token-llamaindex.md) | Python integration with LlamaIndex |
