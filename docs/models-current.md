@@ -1,17 +1,18 @@
 # Current Models
 
 !!! Important
-    Last Updated: July 24, 2025
+    Last Updated: September 30, 2026
 
-This page provides details about models available through AI Assistant. Information about models from other national inference infrastructure can be referenced through the respective documentation or informational web sites.
+This page provides details about models available through AI Assistant.
 
-| Model Name | Aliases | Token Context Length | Supports Vision | Supports Reasoning | Supports Tools |
-| ---------- | ------- | -------------------- |---------------- | ------------------ | -------------- |
-| gemma-3-12b-it | | 32,768 | :white_check_mark: | :x: | :x: |
-| Llama-3.3-70B-Instruct-quantized | | 128,000 | :x: | :x: | :x: |
-| Llama-3.2-11B-Vision-Instruct | | 32,768 | :white_check_mark: | :x: | :white_check_mark: |
-| phi-4-multimodal-instruct | phi-4 | 128,000 | :white_check_mark: | :x: | :x: |
-| qwen3-coder-32b | | 131,072 | :x: | :white_check_mark: | :white_check_mark: |
+| Model Name                | Aliases                                     | Token Context Length | Supports Vision    | Supports Reasoning | Supports Tools     |
+|---------------------------|---------------------------------------------|----------------------|--------------------|--------------------|--------------------|
+| claude-haiku-4-5-20251001 | us.anthropic.claude-haiku-4-5-20251001-v1:0 | 200,000              | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| claude-sonnet-5           | us.anthropic.claude-sonnet-5                | 1,000,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| claude-opus-5             | us.anthropic.claude-opus-5                  | 1,000,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| gpt-5.6-luna              |                                             | 1,050,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| gpt-5.6-terra             |                                             | 1,050,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| gpt-5.6-sol               |                                             | 1,050,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 !!! Note
     To use a model, you can use the model name or alias (if provided.)
@@ -19,5 +20,3 @@ This page provides details about models available through AI Assistant. Informat
 ## Deprecated Models
 
 This section lists models that have been deprecated.
-
-* Qwen2.5-Coder-32B-Instruct, removed on July 20, 2025
