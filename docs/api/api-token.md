@@ -12,44 +12,49 @@ Your API key lets you connect to the AI Assistant from external tools, scripts, 
 
 From the dashboard, find the team or workspace you want o use and click it. The below image is featuring your personal workspace.
 
-![Personal Workspace Button](../assets/api_key.png)
+![Personal Workspace Button](../assets/api_key.png#only-light)
+![Personal Workspace Button](../assets/api_key_dark.png#only-dark)
 
 ## 3. Open the API Token Tab
 
 From the top bar, click the API Key tab.
 
-![API Key tab](../assets/api_key_tab.png)
+![API Key tab](../assets/api_key_tab.png#only-light)
+![API Key tab](../assets/api_key_tab_dark.png#only-dark)
 
 ## 4. Copy Your API Key
 
 The **API Token** page displays your personal API key. Click the eye icon to reveal it, or click the **copy** icon next to the key to copy it to your clipboard.
 
-![Copying your API key](../assets/api_key_tab_get_key.png)
+![Copying your API key](../assets/api_key_tab_get_key.png#only-light)
+![Copying your API key](../assets/api_key_tab_get_key_dark.png#only-dark)
 
 ## 5. Check Your Available Models
 
 The **Available Models** section shows which models your course or workspace has access to. Use these model names exactly when making API calls.
 
-![Available models list](../assets/api_key_available_models.png)
+![Available models list](../assets/api_key_available_models.png#only-light)
+![Available models list](../assets/api_key_available_models_dark.png#only-dark)
 
 ## 6. Use Your Key in Code
 
 Below the available models page is a section that highlights how you would use the API key. For quick use, you can copy the snippet below for your preferred tool of choice.
 
-![Code usage claude example](../assets/api_key_code_usage.png)
+![Code usage example](../assets/api_key_code_usage.png#only-light)
+![Code usage example](../assets/api_key_code_usage_dark.png#only-dark)
 
 ## Next Steps
 
 Once you have your API key, see the guides below for using it in different environments:
 
-| Guide | Description |
-| ----- | ----------- |
-| **CLI Coding Assistants** | |
-| [Claude Code (Anthropic Models)](api-key-claude.md) | Using Claude models via the Anthropic SDK |
-| [Claude Code Router](claude-code-router.md) | Terminal-based AI coding assistant with model routing |
-| [Aider](aider.md) | AI pair programming in the terminal |
-| **Desktop Clients** | |
-| [ChatboxAI](chatboxai.md) | Desktop chat client |
-| **Libraries** | |
-| [LangChain](api-token-langchain.md) | Python integration with LangChain |
-| [LlamaIndex](api-token-llamaindex.md) | Python integration with LlamaIndex |
+| Guide                                               | Description                                           |
+| --------------------------------------------------- | ----------------------------------------------------- |
+| **CLI Coding Assistants**                           |                                                       |
+| [Claude Code (Anthropic Models)](api-key-claude.md) | Using Claude models via the Anthropic SDK             |
+| [Claude Code Router](claude-code-router.md)         | Terminal-based AI coding assistant with model routing |
+| [Aider](aider.md)                                   | AI pair programming in the terminal                   |
+| **Desktop Clients**                                 |                                                       |
+| [ChatboxAI](chatboxai.md)                           | Desktop chat client                                   |
+| **Libraries**                                       |                                                       |
+| [LangChain](api-token-langchain.md)                 | Python integration with LangChain                     |
+| [LlamaIndex](api-token-llamaindex.md)               | Python integration with LlamaIndex                    |
