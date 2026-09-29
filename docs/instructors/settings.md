@@ -1,44 +1,27 @@
-# Workspace Settings
+# Configuring Your Workspace
 
-The **Settings** page is where you configure how your workspace behaves — which models are available, what dates the workspace is active, and how your budget is allocated across members.
-
-You can access workspace settings by clicking **Details** on your workspace card, then selecting the **Overview** or **Settings** tab.
-
-## Workspace Details
-
-These are the basics of your workspace that you can update at any time:
-
-- **Name** — The display name students see when they log in (e.g., "ISTA 130 — Fall 2026").
-- **Description** — A short note explaining the workspace's purpose. Helps students confirm they're in the right place.
-- **Start and End Dates** — Controls when members can use the workspace. Students cannot access models or use API keys outside of these dates.
-- **Status** — Toggle between **Active** and **Inactive**. Setting a workspace to Inactive temporarily suspends access without deleting anything.
+The workspace settings page controls model access, active dates, budget, and member roles. Access it by clicking **Details** on your workspace card.
 
 !!! tip
     Set your start date a few days before the semester begins so students can get set up early.
 
-## Model Configuration
+<!-- Screenshot suggestion: the workspace Overview tab showing the settings fields -->
 
-Your workspace determines which AI models are available to members. The models listed on the API Keys page come from this configuration.
+## Models
+
+The models listed on your workspace are what members can access through both the chat interface and the API.
 
 - Models are hosted on **AWS Bedrock** and **on-premise** infrastructure — students never interact with external providers directly.
-- The available model list is managed by the AI Assistant team. If you need a specific model enabled, contact **ai-verde-support@cyverse.org**.
-
-For a full list of currently available models, see [Current Models](../models-current.md).
+- To request a specific model, contact **ai-verde-support@cyverse.org**.
+- For a full list of currently available models, see [Current Models](../models-current.md).
 
 ### Bring Your Own (BYO) Model
 
-Instructors can also bring their own commercial or third-party LLM and share access with their workspace members. This is useful if your research or coursework requires a specific model not already available on the platform. Reach out to the AI Assistant team to set this up.
+You can bring your own commercial or third-party LLM and share access with your workspace members. This is useful if your research or coursework requires a specific model not already on the platform. Reach out to the AI Assistant team to set this up.
 
 ## Budget Management
 
-Budgets control how much your workspace can spend on model usage. The budget is set by CyVerse, but as an instructor you have visibility into how it's being used.
-
-### What You Can See
-
-- **Total workspace usage** — How much of the budget has been consumed overall.
-- **Per-member usage** — How much each individual student or team member has used.
-
-### What You Can Do
+Budgets control how much your workspace can spend on model usage. The budget is set by CyVerse, but you have visibility into how it's being used.
 
 - **Set per-member limits** — Cap how much any single member can spend, preventing one student from consuming a disproportionate share.
 - **Request budget increases** — If you're running low before the semester ends, contact **ai-verde-support@cyverse.org**.
@@ -46,9 +29,9 @@ Budgets control how much your workspace can spend on model usage. The budget is 
 !!! note
     You cannot increase the total workspace budget yourself — this requires a request to the CyVerse team.
 
-### Planning Around Your Budget
+<!-- Screenshot suggestion: the budget/usage section of the workspace showing per-member usage -->
 
-A few practical tips:
+### Planning Around Your Budget
 
 - **Check usage before big assignments.** If you're assigning a project that requires heavy model usage, verify you have enough budget remaining.
 - **Set per-member limits early.** This prevents surprises where a few students exhaust the budget before others get to use it.
@@ -56,15 +39,11 @@ A few practical tips:
 
 ## Member Roles
 
-Workspace settings also determine who has management access. There are three roles:
-
 | Role | Can Chat | Can Use API Key | Can Manage Members | Can Edit Settings |
 |------|----------|-----------------|-------------------|-------------------|
 | **Instructor** | Yes | Yes | Yes | Yes |
 | **TA** | Yes | Yes | Limited | No |
 | **Student** | Yes | Yes | No | No |
-
-To change a member's role, go to the **Members** tab, find the member, and update their role.
 
 ## Common Questions
 
