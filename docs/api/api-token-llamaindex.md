@@ -7,7 +7,7 @@ pip install llama-index-core llama-index-llms-litellm
 
 ## 2. Obtain variables to integrate the AI Assistant with LlamaIndex
 
-Obtaining your AI Assistant API key is outlined [here](/api/api-token).
+Obtaining your AI Assistant API key is outlined [here](api-token.md).
 
 
 You can obtain a list of the models you have access to with the following command; denoted by "id":
@@ -47,7 +47,7 @@ from llama_index.core.llms import ChatMessage
 llm = LiteLLM(
     model="litellm_proxy/[MODEL NAME]",
     api_base="https://ai-assistant.ai2s.org",
-    api_key="[AI Assistant API KEY]",)
+    api_key=api_key,)
 
 message = ChatMessage(role="user", content="Hey! how's it going?")
 response = llm.chat([message])

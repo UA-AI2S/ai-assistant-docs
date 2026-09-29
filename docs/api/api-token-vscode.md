@@ -21,6 +21,7 @@ Selecting this red bar will bring out a new menu. In case you need to access thi
 In the new menu, select "custom" among the dropdown list
 
 ![service](../assets/vscode_openai_serviceprovider.png)
+
 ---
 The menu will then prompt or an API URL, API key, and model name
 

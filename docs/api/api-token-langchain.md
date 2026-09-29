@@ -7,7 +7,7 @@ pip install langchain_community
 
 ## 2. Obtain variables to integrate the AI Assistant with LangChain
 
-Obtaining your AI Assistant API key is outlined [here](/api/api-token/).
+Obtaining your AI Assistant API key is outlined [here](api-token.md).
 
 
 You can obtain a list of the models you have access to with the following command; denoted by "id":
