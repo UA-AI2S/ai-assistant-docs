@@ -26,4 +26,4 @@ You can also find the request form by visiting [ai-assistant.ai2s.org](https://a
 
 ## Support
 
-If you need help or want to request a model, budget adjustment, or BYO LLM setup, contact **ai-verde-support@cyverse.org**.
+If you need help or want to request a model, budget adjustment, or BYO LLM setup, contact **ai-assistant-support@list.arizona.edu**.

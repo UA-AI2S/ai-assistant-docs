@@ -30,7 +30,7 @@ This guide covers the most common issues instructors face when getting started, 
   - Resubmit the corrected file to the support team.
 
 - **Course details are incorrect (name, description, or term)**  
-  - Contact **ai-verde-support@cyverse.org** with the corrections.  
+  - Contact **ai-assistant-support@list.arizona.edu** with the corrections.  
 
 
 ## Managing a Course Issues
@@ -55,4 +55,4 @@ This guide covers the most common issues instructors face when getting started, 
 
 ## Support Contact
 If these steps don’t solve your issue, reach out to the CyVerse team:  
-**ai-verde-support@cyverse.org**
+**ai-assistant-support@list.arizona.edu**

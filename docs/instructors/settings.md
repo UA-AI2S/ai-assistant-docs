@@ -62,7 +62,7 @@ Members can find their key on the API Key tab and regenerate it if needed. For s
 The models listed on your workspace are what members can access through both the chat interface and the API. The model list is configured under **General Settings**.
 
 - Models are hosted on **AWS Bedrock** and **on-premise** infrastructure — members never interact with external providers directly.
-- To request a specific model, contact **ai-verde-support@cyverse.org**.
+- To request a specific model, contact **ai-assistant-support@list.arizona.edu**.
 - For a full list of currently available models, see [Current Models](../models-current.md).
 
 ### Bring Your Own (BYO) Model
@@ -80,7 +80,7 @@ Under **Settings > Budget**, you can monitor spending and control how your budge
 The budget page shows total workspace spend against the allocated maximum. Below that, a per-member usage table breaks down how much each individual has consumed.
 
 !!! note
-You cannot increase the total workspace budget yourself — this requires a request to the AI2S team. Contact **ai-verde-support@cyverse.org** to request an increase.
+You cannot increase the total workspace budget yourself — this requires a request to the AI2S team. Contact **ai-assistant-support@list.arizona.edu** to request an increase.
 
 ### Per-Member Limits
 

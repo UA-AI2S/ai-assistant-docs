@@ -15,7 +15,7 @@ API key usage counts against the workspace budget. You can:
 
 - View per-member usage on the **Members** tab.
 - Monitor total workspace usage to plan assignments around available resources.
-- Contact **ai-verde-support@cyverse.org** to request budget adjustments.
+- Contact **ai-assistant-support@list.arizona.edu** to request budget adjustments.
 
 !!! warning
     If your workspace budget is exhausted, API keys will stop working until the budget is replenished. Plan ahead for heavy-usage assignments like final projects.

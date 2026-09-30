@@ -13,4 +13,4 @@ The University of Arizona AI Assistant is an open source platform that provides 
 - [Getting Access](getting-access.md) — How to request access to the AI Assistant
 
 - [Current Models](models-current.md) — Available LLMs on the platform
-- Contact Support — Email **ai-verde-support@cyverse.org**
+- Contact Support — Email **ai-assistant-support@list.arizona.edu**

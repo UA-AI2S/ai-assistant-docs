@@ -36,4 +36,4 @@ If you don't see a workspace, your instructor or team lead may need to add you. 
 
 ## Support
 
-If you have questions or run into issues, email **ai-verde-support@cyverse.org**.
+If you have questions or run into issues, email **ai-assistant-support@list.arizona.edu**.
