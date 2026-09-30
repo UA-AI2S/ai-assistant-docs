@@ -48,8 +48,7 @@ nav = [
     { "Current Models" = "models-current.md" },
     #{ "FAQ" = "faq.md" },
   ]},
-  { "For Users" = [
-    { "Overview" = "getting-started.md" },
+  { "API" = [
     { "Obtaining Your API Key" = "api/api-token.md" },
     { "Using Your API Key" = [
       { "CLI Coding Assistants" = [
@@ -69,14 +68,10 @@ nav = [
         { "LlamaIndex" = "api/api-token-llamaindex.md" },
       ]},
     ]},
-    #{ "Chat History" = "chat-history.md" },
   ]},
   { "For Instructors" = [
     { "Getting Started" = "instructors/getting-started.md" },
-    { "Managing a Workspace" = [
-      { "Managing Student API Access" = "instructors/api-keys.md" },
-      { "Configuring Your Workspace" = "instructors/settings.md" },
-    ]},
+    { "Managing a Workspace" = "instructors/settings.md" },
   ]},
 ]
 
