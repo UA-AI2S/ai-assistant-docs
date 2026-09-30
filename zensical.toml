@@ -22,7 +22,7 @@ site_description = "Manual and resource site for the University of Arizona's AI 
 # The site_author attribute. This is used in the HTML head element.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_author
-site_author = "Office of Responsible AI, The Universtity of Arizona"
+site_author = "Office of Responsible AI, The University of Arizona"
 
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.

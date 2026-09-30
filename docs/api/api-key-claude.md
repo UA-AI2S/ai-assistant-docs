@@ -12,7 +12,7 @@ You can follow these instructions to use your AI Assistant API Key after install
 
 ## Prerequisites
 
-1. Your AI Assistant course or team must be configured to use Anthropic models (see instructor or team lead)
+1. Your AI Assistant workspace must be configured to use Anthropic models (see your workspace admin)
 2. Obtain your AI Assistant API Key. [Instructions can be found here](api-token.md)
 3. Install Claude Code. Instructions can be found here, https://www.anthropic.com/claude-code/
 4. The remaining instructions assume you have an open terminal on system with Claude Code and bash installed.
@@ -39,7 +39,7 @@ You can then run Claude Code.
 claude
 ```
 
-After initially launching Claude Code, claude will write the variables into a `~/.claude/settings.json` file. You do not need to repeat step #1 again for future sessions.
+To avoid repeating step #1 each session, add the `export` lines to your shell profile (e.g., `~/.bashrc` or `~/.zshrc`).
 
 ## If you need to change your `ANTHROPIC_API_KEY`
 

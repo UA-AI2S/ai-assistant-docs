@@ -5,26 +5,26 @@ Your API key lets you connect to the AI Assistant from external tools, scripts, 
 ## 1. Sign In
 
 1. Go to [https://ai-assistant.ai2s.org/](https://ai-assistant.ai2s.org/){target=\_new}.
-2. Click **Login in with NetID**.
+2. Click **Log in with NetID**.
 3. Sign in with your NetID.
 
-## 2. Select Your Team or Course
+## 2. Select Your Workspace
 
 From the dashboard, find the workspace you want to use and click it. The image below shows a personal workspace.
 
 ![Personal Workspace Button](../assets/api_key.png#only-light)
 ![Personal Workspace Button](../assets/api_key_dark.png#only-dark)
 
-## 3. Open the API Token Tab
+## 3. Open the API Key Tab
 
-From the top bar, click the API Key tab.
+From the top bar, click the **API Key** tab.
 
 ![API Key tab](../assets/api_key_tab.png#only-light)
 ![API Key tab](../assets/api_key_tab_dark.png#only-dark)
 
 ## 4. Copy Your API Key
 
-The **API Token** page displays your personal API key. Click the eye icon to reveal it, or click the **copy** icon next to the key to copy it to your clipboard.
+The **API Key** page displays your personal API key. Click the eye icon to reveal it, or click the **copy** icon next to the key to copy it to your clipboard.
 
 ![Copying your API key](../assets/api_key_tab_get_key.png#only-light)
 ![Copying your API key](../assets/api_key_tab_get_key_dark.png#only-dark)

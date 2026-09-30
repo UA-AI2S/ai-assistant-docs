@@ -1,6 +1,6 @@
 # Overview for Instructors
 
-As a workspace admin, you manage how your team or course interacts with AI Assistant. This page covers what you can do and how to get set up.
+As a workspace admin, you manage how your workspace interacts with AI Assistant. This page covers what you can do and how to get set up.
 
 ## What You Can Do
 

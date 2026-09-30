@@ -4,9 +4,9 @@ Chatbox AI is a desktop application that works on Windows, MacOS, Android, iOS, 
 
 ## Prerequisites
 1. Obtain your AI Assistant API Key and API URL. [Instructions can be found here](api-token.md).
-2. Note the model(s) you want to configure for Claude Code. [Instructions can be found here](api-key-models.md).
+2. Note the model(s) you want to configure for Chatbox AI. [Instructions can be found here](api-key-models.md).
 3. Install Chatbox AI by visiting this page: https://chatboxai.app/en#download.
-4. The remaining instructions Chatbox AI installed.
+4. The remaining instructions assume you have Chatbox AI installed.
 
 ## 1. Configure the AI Assistant in Chatbox AI
 

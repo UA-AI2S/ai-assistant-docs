@@ -1,9 +1,9 @@
-# Current CyVerse Models
+# Current Models
 
 !!! Important
     Last Updated: July 24, 2025
 
-This page is provides details about models provided directly through CyVerse. Information about  models from other national inference infrastructure can be referenced through the respective documentation or informational web sites.
+This page provides details about models available through AI Assistant. Information about models from other national inference infrastructure can be referenced through the respective documentation or informational web sites.
 
 | Model Name | Aliases | Token Context Length | Supports Vision | Supports Reasoning | Supports Tools |
 | ---------- | ------- | -------------------- |---------------- | ------------------ | -------------- |
@@ -18,6 +18,6 @@ This page is provides details about models provided directly through CyVerse. In
 
 ## Deprecated Models
 
-This section lists models that have been deprecated through "cyverse".
+This section lists models that have been deprecated.
 
 * Qwen2.5-Coder-32B-Instruct, removed on July 20, 2025

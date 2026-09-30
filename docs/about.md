@@ -7,7 +7,7 @@ All university faculty, staff, and students are granted a monthly usage allocati
 ## What You Can Do
 
 - **Use your API key with external tools** — Connect the AI Assistant to IDEs, coding assistants like Claude Code and Aider, desktop clients like ChatboxAI, or any OpenAI-compatible tool or library.
-- **Chat with AI models** — Use the built-in web chat interface to ask questions and have conversations. *(Coming soon)*
+- **Chat with AI models** — Use the built-in web chat interface to ask questions and have conversations. _(Coming soon)_
 
 ## Key Features
 
@@ -27,7 +27,7 @@ The AI Assistant API is **OpenAI-compatible**, which means any tool that works w
 
 ## Getting Started
 
-1. **Sign in** at [ai-assistant.ai2s.org](https://ai-assistant.ai2s.org/){target=_new} using your University of Arizona credentials.
+1. **Sign in** at [ai-assistant.ai2s.org](https://ai-assistant.ai2s.org/){target=\_new} using your University of Arizona credentials.
 2. **Find your workspace** on the dashboard — click it to open.
 3. **Go to the API Key tab** to copy your API key and base URL.
 4. **Use your key** with any of the [supported tools and integrations](api/api-token.md).
@@ -36,4 +36,4 @@ If you don't see a workspace, your instructor or team lead may need to add you. 
 
 ## Support
 
-If you have questions or run into issues, use the built-in support chat at [ai-assistant.ai2s.org](https://ai-assistant.ai2s.org/) or reach out to the ORAI team.
+If you have questions or run into issues, email **ai-verde-support@cyverse.org**.
