@@ -10,7 +10,7 @@ Your API key lets you connect to the AI Assistant from external tools, scripts, 
 
 ## 2. Select Your Team or Course
 
-From the dashboard, find the team or workspace you want o use and click it. The below image is featuring your personal workspace.
+From the dashboard, find the workspace you want to use and click it. The image below shows a personal workspace.
 
 ![Personal Workspace Button](../assets/api_key.png#only-light)
 ![Personal Workspace Button](../assets/api_key_dark.png#only-dark)
@@ -31,7 +31,7 @@ The **API Token** page displays your personal API key. Click the eye icon to rev
 
 ## 5. Check Your Available Models
 
-The **Available Models** section shows which models your course or workspace has access to. Use these model names exactly when making API calls.
+The **Available Models** section shows which models your workspace has access to. Use these model names exactly when making API calls.
 
 ![Available models list](../assets/api_key_available_models.png#only-light)
 ![Available models list](../assets/api_key_available_models_dark.png#only-dark)
