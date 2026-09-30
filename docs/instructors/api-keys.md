@@ -5,7 +5,7 @@ Each workspace member gets their own API key for connecting to AI models from ex
 !!! tip
     Students do not need to create accounts with OpenAI, Anthropic, or any other provider. The AI Assistant API key is all they need.
 
-Students can generate their key and find setup instructions at [Obtaining Your API Key](../api/api-token.md).
+Students can generate their key and find setup instructions at [Obtaining Your API Key](../api/api-key.md).
 
 <!-- Screenshot suggestion: the instructor's view of the API Keys tab showing member key status -->
 

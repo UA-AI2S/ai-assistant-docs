@@ -3,7 +3,7 @@
 Chatbox AI is a desktop application that works on Windows, MacOS, Android, iOS, Web, and Linux. These instructions should apply for both Windows and MacOS versions with some variations between the two platforms.
 
 ## Prerequisites
-1. Obtain your AI Assistant API Key and API URL. [Instructions can be found here](api-token.md).
+1. Obtain your AI Assistant API Key and API URL. [Instructions can be found here](api-key.md).
 2. Note the model(s) you want to configure for Chatbox AI. [Instructions can be found here](api-key-models.md).
 3. Install Chatbox AI by visiting this page: https://chatboxai.app/en#download.
 4. The remaining instructions assume you have Chatbox AI installed.

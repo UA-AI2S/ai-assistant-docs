@@ -30,7 +30,7 @@ The AI Assistant API is **OpenAI-compatible**, which means any tool that works w
 1. **Sign in** at [ai-assistant.ai2s.org](https://ai-assistant.ai2s.org/){target=\_new} using your University of Arizona credentials.
 2. **Find your workspace** on the dashboard — click it to open.
 3. **Go to the API Key tab** to copy your API key and base URL.
-4. **Use your key** with any of the [supported tools and integrations](api/api-token.md).
+4. **Use your key** with any of the [supported tools and integrations](api/api-key.md).
 
 If you don't see a workspace, your instructor or team lead may need to add you. See [Getting Access](getting-access.md) for more details.
 

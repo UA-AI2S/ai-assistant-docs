@@ -1,4 +1,4 @@
-# Examples of using your AI Assistant API Token in MacOS
+# Examples of using your AI Assistant API Key in MacOS
 
 Adding the AI Assistant to AI platforms takes your chatbot to the next level with smarter, faster AI-powered responses. For everyday tasks like customer support, coding help, or data analysis, making your chatbot more versatile. Best of all, the AI Assistant's integration works with most chatbot systems!
 ___

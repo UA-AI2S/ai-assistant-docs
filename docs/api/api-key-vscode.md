@@ -1,4 +1,4 @@
-# Examples of using your AI Assistant API Token in VSCode
+# Examples of using your AI Assistant API Key in VSCode
 
 ## OpenAI
 !!! Note "Check if you have access to an OpenAI model by running the following command and looking for OpenAI model ID's (i.e. gpt-4o, gpt-4o-mini). These ID's correspond to the model name"

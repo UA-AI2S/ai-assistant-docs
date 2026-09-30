@@ -5,7 +5,7 @@ You can follow these instructions to use your AI Assistant API Key after install
 ## Prerequisites
 
 1. Your AI Assistant course or team must be configured to use Anthropic models (see instructor or team lead)
-2. Obtain your AI Assistant API Key. [Instructions can be found here](api-token.md)
+2. Obtain your AI Assistant API Key. [Instructions can be found here](api-key.md)
 3. Install Codex. Instructions can be found here, https://github.com/openai/codex
 4. The remaining instructions assume you have an open terminal on system with Codex and bash installed.
 

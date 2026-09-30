@@ -30,4 +30,4 @@ Your usage is displayed on the workspace card. Click into the workspace to see a
 
 ## Getting Your API Key
 
-The steps are the same as for any workspace. See [Obtaining Your API Key](api/api-token.md) for a walkthrough.
+The steps are the same as for any workspace. See [Obtaining Your API Key](api/api-key.md) for a walkthrough.

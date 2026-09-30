@@ -4,7 +4,7 @@ Claude Code is Anthropic's official CLI coding assistant. The AI Assistant can s
 
 ## Prerequisites
 
-1. Obtain your **AI Assistant API key** and note the **AI Assistant base URL**. The base url that will be used in the environment variables will be set with `/bedrock` rather than `/v1`. [Instructions can be found here](api-token.md).
+1. Obtain your **AI Assistant API key** and note the **AI Assistant base URL**. The base url that will be used in the environment variables will be set with `/bedrock` rather than `/v1`. [Instructions can be found here](api-key.md).
 2. Note the **Claude model ID** for Opus, Sonnet, and Haiku. [Instructions for listing available models can be found here](api-key-models.md).
 3. Install **Claude Code**. Instructions can be found at [https://www.anthropic.com/claude-code](https://www.anthropic.com/claude-code).
 4. The remaining instructions assume you have an open terminal with Claude Code installed onlinux or mac terminal.

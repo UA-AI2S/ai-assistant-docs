@@ -4,7 +4,7 @@
 
 ## Prerequisites
 
-1. Obtain your **AI Assistant API key** and note the **AI Assistant base URL**. The base url that will be used in the script needs to be stripped of the `/v1` suffix if present. [Instructions can be found here](api-token.md).
+1. Obtain your **AI Assistant API key** and note the **AI Assistant base URL**. The base url that will be used in the script needs to be stripped of the `/v1` suffix if present. [Instructions can be found here](api-key.md).
 2. Note the **Claude model ID** for Opus, Sonnet, and Haiku. [Instructions for listing available models can be found here](api-key-models.md).
 3. Install **Anthropic Python SDK**. Instructions can be found at [https://github.com/anthropics/anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python).
 

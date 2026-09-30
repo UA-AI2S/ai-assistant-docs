@@ -56,5 +56,5 @@ Once you have your API key, see the guides below for using it in different envir
 | **Desktop Clients**                                 |                                                       |
 | [ChatboxAI](chatboxai.md)                           | Desktop chat client                                   |
 | **Libraries**                                       |                                                       |
-| [LangChain](api-token-langchain.md)                 | Python integration with LangChain                     |
-| [LlamaIndex](api-token-llamaindex.md)               | Python integration with LlamaIndex                    |
+| [LangChain](api-key-langchain.md)                 | Python integration with LangChain                     |
+| [LlamaIndex](api-key-llamaindex.md)               | Python integration with LlamaIndex                    |

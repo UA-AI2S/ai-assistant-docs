@@ -55,7 +55,7 @@ The **API Key** tab shows the member's API key for this workspace. Each member g
 !!! tip
 Members do not need accounts with OpenAI, Anthropic, or any other provider. The AI Assistant API key is all they need.
 
-Members can find their key on the API Key tab and regenerate it if needed. For setup instructions, see [Obtaining Your API Key](../api/api-token.md).
+Members can find their key on the API Key tab and regenerate it if needed. For setup instructions, see [Obtaining Your API Key](../api/api-key.md).
 
 ## Models
 

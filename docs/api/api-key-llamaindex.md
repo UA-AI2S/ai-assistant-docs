@@ -7,7 +7,7 @@ pip install llama-index-core llama-index-llms-litellm
 
 ## 2. Obtain variables to integrate the AI Assistant with LlamaIndex
 
-Obtaining your AI Assistant API key is outlined [here](api-token.md).
+Obtaining your AI Assistant API key is outlined [here](api-key.md).
 
 
 You can obtain a list of the models you have access to with the following command; denoted by "id":

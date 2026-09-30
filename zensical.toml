@@ -49,7 +49,7 @@ nav = [
     #{ "FAQ" = "faq.md" },
   ]},
   { "API" = [
-    { "Obtaining Your API Key" = "api/api-token.md" },
+    { "Obtaining Your API Key" = "api/api-key.md" },
     { "Using Your API Key" = [
       { "CLI Coding Assistants" = [
         { "Claude Code (Anthropic Models)" = "api/api-key-claude.md" },
@@ -60,12 +60,12 @@ nav = [
         { "ChatboxAI.app" = "api/chatboxai.md" },
       ]},
       #{ "IDEs" = [
-      #  { "VSCode" = "api/api-token-vscode.md" },
-      #  { "Jupyter" = "api/api-token-jupyter.md" },
+      #  { "VSCode" = "api/api-key-vscode.md" },
+      #  { "Jupyter" = "api/api-key-jupyter.md" },
       #]},
       { "Libraries" = [
-        { "LangChain" = "api/api-token-langchain.md" },
-        { "LlamaIndex" = "api/api-token-llamaindex.md" },
+        { "LangChain" = "api/api-key-langchain.md" },
+        { "LlamaIndex" = "api/api-key-llamaindex.md" },
       ]},
     ]},
   ]},

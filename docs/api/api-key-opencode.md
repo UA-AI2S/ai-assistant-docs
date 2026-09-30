@@ -5,7 +5,7 @@
 ## Prerequisites
 
 1. Your AI Assistant course or team must be configured to use Anthropic models (see instructor or team lead)
-2. Obtain your AI Assistant API Key. [Instructions can be found here](api-token.md)
+2. Obtain your AI Assistant API Key. [Instructions can be found here](api-key.md)
 3. Install OpenCode. Instructions can be found here, https://opencode.ai/
 4. The remaining instructions assume you have an open terminal on system with OpenCode and bash installed.
 

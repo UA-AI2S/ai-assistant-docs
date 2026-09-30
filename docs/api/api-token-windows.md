@@ -1,1 +1,0 @@
-# Examples of using your AI Assistant API Token in Windows Desktop

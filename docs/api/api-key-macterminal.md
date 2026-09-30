@@ -1,8 +1,8 @@
-# Step-by-Step Guide: Using an API Token on macOS
+# Step-by-Step Guide: Using an API Key on macOS
 
-This tutorial explains how to securely use an API token on macOS.
+This tutorial explains how to securely use an API key on macOS.
 
-## Steps to Use an API Token
+## Steps to Use an API Key
 
 ## Step 1: Open Terminal
 1. Launch the Terminal application on your Mac:
@@ -12,21 +12,21 @@ This tutorial explains how to securely use an API token on macOS.
 
 ---
 
-## Step 2: Store the API Token in an Environment Variable
+## Step 2: Store the API Key in an Environment Variable
 
-1. Use a secure method to store the token:
-   ```export OPENAI_BASE_URL="your_api_token_here"```
+1. Use a secure method to store the key:
+   ```export OPENAI_BASE_URL="your_api_key_here"```
 2. To make it persistent across sessions, add the line to your shell profile file:
 - For zsh (default in macOS):
 
-    ```echo export OPENAI_BASE_URL="your_api_token_here" >> ~/.zshrc```
+    ```echo export OPENAI_BASE_URL="your_api_key_here" >> ~/.zshrc```
 - For bash:
-    ```echo export OPENAI_BASE_URL="your_api_token_here" >> ~/.bash_profile```
+    ```echo export OPENAI_BASE_URL="your_api_key_here" >> ~/.bash_profile```
 
 - Apply the changes:
     - For zsh ```source ~/.zshrc```
     - For bash ```source ~/.bash_profile```
-![display token](../assets/display_token.png){: style="width:50%"}
+![display key](../assets/display_key.png){: style="width:50%"}
 
 ---
 
@@ -48,11 +48,11 @@ Open the appropriate file in a text editor:
 
 - For bash: ```nano ~/.bash_profile```
 
-### Step 3.3: Add the Token
+### Step 3.3: Add the Key
 
 - Add the following line to the file:
 
-  ```export OPENAI_BASE_URL="your_api_token_here"```
+  ```export OPENAI_BASE_URL="your_api_key_here"```
 
 ### Step 3.4: Save and Exit
 
@@ -60,31 +60,31 @@ Open the appropriate file in a text editor:
     Press ```Enter``` to confirm.
     Press ```Ctrl + X``` to exit.
 
-- . Confirm the token is set correctly:
+- . Confirm the key is set correctly:
 
   ``` echo $OPENAI_BASE_URL```
-- The terminal should display your token
+- The terminal should display your key
 
  ![open nano](../assets/nano_zshrc.png){: style="width:50%"}
 
 ---
-## Step 4: Use the API Token in a cURL Request
+## Step 4: Use the API Key in a cURL Request
 
 
--  To test the token, use it in an API call:
+-  To test the key, use it in an API call:
     ```curl -H "Authorization: Bearer $OPENAI_BASE_URL" https://ai-assistant.ai2s.org/endpoint```
 
 ![authorization](../assets/curl-h-authorization.png){: style="width:50%"}
 
 ---
-## Step 5: Secure your Token
-1. Avoid hardcoding tokens in scripts.
+## Step 5: Secure your Key
+1. Avoid hardcoding keys in scripts.
 2. Use .env files with tools like dotenv for larger projects.
-3. Revoke unused or compromised tokens.
+3. Revoke unused or compromised keys.
 
 ## Troubleshooting
 
-- Token not found: Ensure you used source to reload your shell configuration.
+- Key not found: Ensure you used source to reload your shell configuration.
 - Permission denied: Check the file permissions of your shell profile.
 
-## You're all set! 🎉 You can now use your API token securely on macOS.
+## You're all set! 🎉 You can now use your API key securely on macOS.
