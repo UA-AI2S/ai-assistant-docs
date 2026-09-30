@@ -4,7 +4,8 @@ The University of Arizona AI Assistant is an open source platform that provides 
 
 ## Where to Go
 
-- **[About AI Assistant](about.md)** — Get started with the AI Assistant: sign in, find your workspace, and get your API key.
+- **[About AI Assistant](about.md)** — A brief overview of AI Assistant and what it offers.
+- **[API](api/api-token.md)** — Obtain your API key and use it with development tools.
 - **[For Instructors](instructors/getting-started.md)** — Set up and manage workspaces for your courses and teams.
 
 ## Quick Links
