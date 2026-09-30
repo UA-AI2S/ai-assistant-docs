@@ -1,8 +1,13 @@
 # About AI Assistant
 
-**AI Assistant** is an AI integration platform built by the **Office of Responsible AI** at The University of Arizona. It provides access to  leading large language models (LLMs) for individuals, teams, and courses.  Models are hosted on AWS Bedrock and on-premise.
+**AI Assistant** is an AI integration platform built by the **Office of Responsible AI** at The University of Arizona. It provides access to leading large language models (LLMs) for individuals, teams, and courses. Models are hosted on AWS Bedrock and on-premise.
 
 All university faculty, staff, and students are granted a monthly usage allocation.
+
+## What You Can Do
+
+- **Use your API key with external tools** — Connect the AI Assistant to IDEs, coding assistants like Claude Code and Aider, desktop clients like ChatboxAI, or any OpenAI-compatible tool or library.
+- **Chat with AI models** — Use the built-in web chat interface to ask questions and have conversations. *(Coming soon)*
 
 ## Key Features
 
@@ -11,16 +16,23 @@ All university faculty, staff, and students are granted a monthly usage allocati
 - **Budget management** — Set budgets at the workspace level, as well as per-member spending limits.
 - **Bring Your Own (BYO) LLM** — Instructors or team leads can bring their own commercial or third-party LLM and share access with their students or team members.
 - **Built-in guardrails** — Ensure responsible, safe, and effective use of AI.
-<!-- - **Built for Retrieval-Augmented Generation (RAG)** — Instructors can optionally configure the AI Assistant to provide answers strictly from source documents. -->
-
-In the future, AI Assistant will support Retrieval-Augmented Generation (RAG), allowing users to create and manage Knowledge Bases so that answers are grounded in information relating to their team, course, or own documents.
-
 
 ## How It Works
 
-API keys are granted through workspaces. Each user will has a Personal Workspace, where they can access their monthly usage allocation.  
+API keys are granted through workspaces. Each user has a Personal Workspace, where they can access their monthly usage allocation.
 
-Additionally, workspaces can be created for specific teams, courses, or projects. Workspace admins (typically instructors or team leads) configure which models are available and manage member access. Members receive an API key they can use to interact with the available models.
+Additionally, workspaces can be created for specific teams, courses, or projects. Workspace admins configure which models are available and manage member access. Members receive an API key they can use to interact with the available models.
+
+The AI Assistant API is **OpenAI-compatible**, which means any tool that works with OpenAI can connect to AI Assistant by swapping in your API key and base URL.
+
+## Getting Started
+
+1. **Sign in** at [ai-assistant.ai2s.org](https://ai-assistant.ai2s.org/){target=_new} using your University of Arizona credentials.
+2. **Find your workspace** on the dashboard — click it to open.
+3. **Go to the API Key tab** to copy your API key and base URL.
+4. **Use your key** with any of the [supported tools and integrations](api/api-token.md).
+
+If you don't see a workspace, your instructor or team lead may need to add you. See [Getting Access](getting-access.md) for more details.
 
 ## Support
 
