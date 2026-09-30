@@ -28,8 +28,10 @@ You should then be shown the ai-assistant configuration panel on the right.
 10. In the model section, click on the "New" button, and a new model dialog box will be shown
 11. Enter the model in "Model ID" field
 12. In the capabilities, click on the capabilities if you know the model supports vision, reasoning, or tool use.
-    !!! Note
-        Capabilities for a model can be modified at a later time.
+
+    !!! note
+        You can change the model's capabilities later.
+
 13. Click on the "Save" button<br/>
 ![chatbox ai](../assets/chatboxai04.png){: style="width:80%"}<br/>
 14. You can repeat steps 10-13 to add additional models

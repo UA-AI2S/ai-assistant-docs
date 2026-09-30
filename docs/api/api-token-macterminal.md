@@ -15,7 +15,7 @@ This tutorial explains how to securely use an API token on macOS.
 ## Step 2: Store the API Token in an Environment Variable
 
 1. Use a secure method to store the token:
-   ```export OPENAI_BASE_URL= "your_api_token_here"```
+   ```export OPENAI_BASE_URL="your_api_token_here"```
 2. To make it persistent across sessions, add the line to your shell profile file:
 - For zsh (default in macOS):
 
@@ -66,6 +66,7 @@ Open the appropriate file in a text editor:
 - The terminal should display your token
 
  ![open nano](../assets/nano_zshrc.png){: style="width:50%"}
+
 ---
 ## Step 4: Use the API Token in a cURL Request
 
