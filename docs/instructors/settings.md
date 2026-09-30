@@ -16,10 +16,10 @@ Under **Settings > Members**, you can add and remove members and assign roles.
 
 ### Roles
 
-| Role | Can Chat | Can Use API Key | Can Manage Members | Can Edit Settings |
-|------|----------|-----------------|-------------------|-------------------|
-| **Admin** | Yes | Yes | Yes | Yes |
-| **Member** | Yes | Yes | No | No |
+| Role       | Can Chat | Can Use API Key | Can Manage Members | Can Edit Settings |
+| ---------- | -------- | --------------- | ------------------ | ----------------- |
+| **Admin**  | Yes      | Yes             | Yes                | Yes               |
+| **Member** | Yes      | Yes             | No                 | No                |
 
 ### Adding Members Individually
 
@@ -53,7 +53,7 @@ The **API Key** tab shows the member's API key for this workspace. Each member g
 <!-- IMAGE NEEDED: API Key tab -->
 
 !!! tip
-    Members do not need accounts with OpenAI, Anthropic, or any other provider. The AI Assistant API key is all they need.
+Members do not need accounts with OpenAI, Anthropic, or any other provider. The AI Assistant API key is all they need.
 
 Members can find their key on the API Key tab and regenerate it if needed. For setup instructions, see [Obtaining Your API Key](../api/api-token.md).
 
@@ -80,7 +80,7 @@ Under **Settings > Budget**, you can monitor spending and control how your budge
 The budget page shows total workspace spend against the allocated maximum. Below that, a per-member usage table breaks down how much each individual has consumed.
 
 !!! note
-    You cannot increase the total workspace budget yourself — this requires a request to the AI2S team. Contact **ai-verde-support@cyverse.org** to request an increase.
+You cannot increase the total workspace budget yourself — this requires a request to the AI2S team. Contact **ai-verde-support@cyverse.org** to request an increase.
 
 ### Per-Member Limits
 
@@ -90,38 +90,4 @@ You can cap how much any single member can spend. There are two ways to do this:
 - **Custom member budget** — Override the default for specific members from the per-member usage table.
 
 !!! warning
-    If your workspace budget is exhausted, API keys and chat will stop working until the budget is replenished. Plan ahead for heavy-usage assignments.
-
-### Planning Tips
-
-- **Check usage before big assignments.** Verify you have enough budget remaining before assigning work that requires heavy model usage.
-- **Set per-member limits early.** This prevents a few members from exhausting the budget before others get to use it.
-- **Monitor mid-semester.** A quick check halfway through the term can catch trends before they become problems.
-
-## Troubleshooting
-
-**A member says their API key isn't working — what should I check?**
-
-1. Confirm the member is listed on the **Members** page.
-2. Verify the workspace budget hasn't been exceeded.
-3. Make sure they are using the correct base URL: `https://ai-assistant.ai2s.org/`.
-
-## Common Questions
-
-**Can I have multiple admins on one workspace?**
-:   Yes. Add them as members with the **Admin** role. All admins have full management access.
-
-**Can I create a shared API key for the whole workspace?**
-:   No. Each member has their own key so that usage can be tracked individually and per-member limits can be enforced.
-
-**Do API keys expire?**
-:   Keys remain active as long as the member is enrolled in the workspace. Once the workspace end date passes or a member is removed, their key stops working.
-
-**What happens when the end date passes?**
-:   Members lose access to the workspace. API keys stop working. The workspace and its data are preserved — you can reactivate it by updating the end date.
-
-**I changed the available models but a member still sees the old list.**
-:   Ask them to sign out and sign back in, or refresh their dashboard. Model changes take effect immediately but may require a page refresh to appear.
-
-**Can I duplicate a workspace for next semester?**
-:   Not directly from the dashboard. Contact **ai-verde-support@cyverse.org** and they can set up a new workspace with similar settings.
+If your workspace budget is exhausted, API keys and chat will stop working until the budget is replenished.
