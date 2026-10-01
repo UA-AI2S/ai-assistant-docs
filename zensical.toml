@@ -57,6 +57,9 @@ nav = [
         { "Claude Code Router" = "api/claude-code-router.md" },
         { "Aider" = "api/aider.md" },
       ]},
+      { "IDEs" = [
+        { "Claude Code for VS Code" = "api/api-key-claude-vscode.md" },
+      ]},
       { "Desktop Clients" = [
         { "ChatboxAI.app" = "api/chatboxai.md" },
       ]},

@@ -4,6 +4,8 @@ Claude Code is Anthropic's coding assistant. Use the Bedrock setup below to acce
 
 AI Assistant handles AWS authentication and workspace budgets. You only need your AI Assistant API key and access to the models in your workspace.
 
+For the VS Code extension setup, see [Using Claude Code in VS Code with AI Assistant](api-key-claude-vscode.md).
+
 ## Prerequisites
 
 1. [Install Claude Code](https://code.claude.com/docs/en/overview).
