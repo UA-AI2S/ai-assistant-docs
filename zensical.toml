@@ -42,13 +42,15 @@ edit_uri = "edit/main/docs/"
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
   { "Home" = [
-    { "Welcome" = "index.md" },
+    { "Welcome" = "welcome.md" },
     { "About AI Assistant" = "about.md" },
     { "Getting Access" = "getting-access.md" },
+    { "Your Personal Workspace" = "personal-workspace.md" },
     { "Current Models" = "models-current.md" },
     #{ "FAQ" = "faq.md" },
   ]},
   { "API" = [
+    { "Introduction" = "api/getting-started.md"},
     { "Obtaining Your API Key" = "api/api-key.md" },
     { "Using Your API Key" = [
       { "CLI Coding Assistants" = [
