@@ -51,8 +51,6 @@ Once you have your API key, see the guides below for using it in different envir
 | --------------------------------------------------- | ------------------------------------------------------- |
 | **CLI Coding Assistants**                           |                                                         |
 | [Claude Code CLI](api-key-claude.md)                    | CLI coding assistant using Claude models on AWS Bedrock |
-| [Claude Code Router](claude-code-router.md)         | Terminal-based AI coding assistant with model routing   |
-| [Aider](aider.md)                                   | AI pair programming in the terminal                     |
 | **IDEs**                                            |                                                         |
 | [Claude Code for VS Code](api-key-claude-vscode.md) | VS Code extension using Claude models on AWS Bedrock    |
 | **Desktop Clients**                                 |                                                         |

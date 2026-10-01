@@ -14,7 +14,7 @@ Before using the API you will need to:
 | Section                                              | What it covers                                                             |
 | ---------------------------------------------------- | -------------------------------------------------------------------------- |
 | [Using Your API Key in Code](api-key-langchain.md) | Python integration with LangChain and LlamaIndex                           |
-| [Using CLI Coding Assistants](claude-code-router.md) | Terminal-based AI coding tools: Claude Code Router, Aider, and Claude Code |
+| [Using CLI Coding Assistants](api-key-claude.md) | Terminal-based AI coding tools: Claude Code Router, Aider, and Claude Code |
 | [Using IDEs](api-key-vscode.md)                    | Editor integrations for VSCode and Jupyter                                 |
 | [Using Desktop Clients](chatboxai.md)                | GUI chat clients such as ChatboxAI                                         |
 
