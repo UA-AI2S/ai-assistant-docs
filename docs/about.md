@@ -6,7 +6,7 @@ University faculty, staff, and students are given a monthly usage allocation.
 
 ## Features
 
-- **Use your API key with external tools** — Connect the AI Assistant to IDEs, coding assistants like Claude Code and Aider, desktop clients like ChatboxAI, or any OpenAI-compatible tool or library.
+- **Use your API key with external tools** — Connect the AI Assistant to IDEs, coding assistants like Claude Code and Aider, desktop clients like Goose, or any OpenAI-compatible tool or library.
 - **Chat with AI models** — Use the built-in web chat interface to interact with available AI models. _(Coming soon)_
 - **Workspaces for teams and courses** — Create shared workspaces for teams, courses, projects, and research groups.
 - **Budget management** — Set budgets at the workspace level and for each member.
