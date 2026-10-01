@@ -47,14 +47,14 @@ Below the available models page is a section that highlights how you would use t
 
 Once you have your API key, see the guides below for using it in different environments:
 
-| Guide                                               | Description                                           |
-| --------------------------------------------------- | ----------------------------------------------------- |
-| **CLI Coding Assistants**                           |                                                       |
-| [Claude Code (Anthropic Models)](api-key-claude.md) | Using Claude models via the Anthropic SDK             |
-| [Claude Code Router](claude-code-router.md)         | Terminal-based AI coding assistant with model routing |
-| [Aider](aider.md)                                   | AI pair programming in the terminal                   |
-| **Desktop Clients**                                 |                                                       |
-| [ChatboxAI](chatboxai.md)                           | Desktop chat client                                   |
-| **Libraries**                                       |                                                       |
+| Guide                                               | Description                                             |
+| --------------------------------------------------- | ------------------------------------------------------- |
+| **CLI Coding Assistants**                           |                                                         |
+| [Claude Code CLI](api-key-claude.md)                    | CLI coding assistant using Claude models on AWS Bedrock |
+| [Claude Code Router](claude-code-router.md)         | Terminal-based AI coding assistant with model routing   |
+| [Aider](aider.md)                                   | AI pair programming in the terminal                     |
+| **Desktop Clients**                                 |                                                         |
+| [ChatboxAI](chatboxai.md)                           | Desktop chat client                                     |
+| **Libraries**                                       |                                                         |
 | [LangChain](api-key-langchain.md)                 | Python integration with LangChain                     |
 | [LlamaIndex](api-key-llamaindex.md)               | Python integration with LlamaIndex                    |

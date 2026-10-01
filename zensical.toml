@@ -52,7 +52,8 @@ nav = [
     { "Obtaining Your API Key" = "api/api-key.md" },
     { "Using Your API Key" = [
       { "CLI Coding Assistants" = [
-        { "Claude Code (Anthropic Models)" = "api/api-key-claude.md" },
+        { "Claude Code CLI" = "api/api-key-claude.md" },
+        { "Claude Code with non-Anthropic models" = "api/api-key-claude-non-anthropic.md" },
         { "Claude Code Router" = "api/claude-code-router.md" },
         { "Aider" = "api/aider.md" },
       ]},
