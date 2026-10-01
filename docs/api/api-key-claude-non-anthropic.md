@@ -1,58 +1,66 @@
-# Claude Code (using non-Anthropic Models)
+# Using Claude Code with non-Anthropic models
 
-You can follow these instructions to use your AI Assistant API Key after installing Claude Code. For general usage, see the [official Claude Code documentation](https://code.claude.com/docs/en/overview).
+Use AI Assistant's Anthropic-compatible endpoint to connect Claude Code to non-Anthropic models in your workspace. Claude Code sends Anthropic-style requests, which AI Assistant translates for the selected model.
 
-!!! Note
-
-    These instructions assume you are using a space that is connected to non-Anthropic models. Even though Claude Code is using non-Anthropic models, the API it uses is still Anthropic-style — the API is translated by the AI Assistant's LiteLLM into OpenAI-compatible or other supported formats.
+For Claude models hosted on AWS Bedrock, see [Using Claude Code with AI Assistant](api-key-claude.md).
 
 ## Prerequisites
 
-1. Your AI Assistant course or team must be configured to use Anthropic models (see instructor or team lead)
-2. Obtain your AI Assistant API Key. [Instructions can be found here](api-key.md)
-3. [Install Claude Code](https://code.claude.com/docs/en/setup#install-claude-code).
-4. The remaining instructions assume you have an open terminal on system with Claude Code and bash installed.
+1. [Install Claude Code](https://code.claude.com/docs/en/setup#install-claude-code).
+2. [Obtain your AI Assistant API key](api-key.md).
+3. Confirm with your workspace admin that non-Anthropic models are available through the Anthropic-compatible endpoint.
+4. Copy the exact model IDs from your workspace's **Available Models** section. See [Check your available models](api-key.md#5-check-your-available-models).
+5. Open a Bash or Zsh terminal on Linux or macOS.
 
-## 1. Set the Environment Variables
+## 1. Configure the Anthropic-compatible endpoint
 
-Export the following environment variables before launching claude code. Note that you can use the same model for all tiers (Opus/Sonnet/Haiku) or you can use different models for each tier. The model names must match the exact model name in LiteLLM. See [Claude Code model environment variables](https://code.claude.com/docs/en/model-config#environment-variables) for details on these model settings.
-
-```bash
-export ANTHROPIC_API_KEY="<your-api-key>"
-export ANTHROPIC_BASE_URL="https://ai-assistant.ai2s.org"
-export ANTHROPIC_DEFAULT_OPUS_MODEL="<model name for opus-tier model>"
-export ANTHROPIC_DEFAULT_SONNET_MODEL="<model name for sonnet-tier model>"
-export ANTHROPIC_DEFAULT_HAIKU_MODEL="<model name for haiku-tier model>"
-export ANTHROPIC_MODEL="<model name for primary model>"
-```
-
-For example:
+Replace the placeholders below with your API key and the non-Anthropic model IDs available in your workspace.
 
 ```bash
-export ANTHROPIC_API_KEY="sk-xxxxxxxxxxxxxxxxxxxxxx"
+unset CLAUDE_CODE_USE_BEDROCK CLAUDE_CODE_SKIP_BEDROCK_AUTH
+unset ANTHROPIC_BEDROCK_BASE_URL ANTHROPIC_AUTH_TOKEN AWS_BEARER_TOKEN_BEDROCK
+
 export ANTHROPIC_BASE_URL="https://ai-assistant.ai2s.org"
-export ANTHROPIC_DEFAULT_OPUS_MODEL="gpt-oss-120b"
-export ANTHROPIC_DEFAULT_SONNET_MODEL="gemma-4-26b-a4b"
-export ANTHROPIC_DEFAULT_HAIKU_MODEL="gemma-4-26b-a4b"
-export ANTHROPIC_MODEL="gpt-oss-120b"
+export ANTHROPIC_API_KEY="<your-ai-assistant-api-key>"
+
+export ANTHROPIC_DEFAULT_OPUS_MODEL="<opus-tier-model-id>"
+export ANTHROPIC_DEFAULT_SONNET_MODEL="<sonnet-tier-model-id>"
+export ANTHROPIC_DEFAULT_HAIKU_MODEL="<haiku-tier-model-id>"
+export ANTHROPIC_MODEL="$ANTHROPIC_DEFAULT_SONNET_MODEL"
 ```
 
-!!! Note
+If your workspace shows a different AI Assistant base URL, remove its trailing `/v1` for `ANTHROPIC_BASE_URL`.
 
-    To obtain the AI Assistant Anthropic Base URL, simply remove `/v1` (e.g. `https://ai-assistant.ai2s.org/v1` => `https://ai-assistant.ai2s.org`).
+The three `ANTHROPIC_DEFAULT_*_MODEL` variables map Claude Code's Opus, Sonnet, and Haiku choices to your non-Anthropic models. You can use the same model ID for all three tiers. `ANTHROPIC_MODEL` starts the session with your chosen Sonnet-tier model. See [Claude Code model environment variables](https://code.claude.com/docs/en/model-config#environment-variables) for details.
 
-To avoid re-entering this each session, add the line to your shell profile (e.g. `~/.bashrc` or `~/.zshrc`). Then, you can source your shell profile.
+The `unset` lines clear conflicting Bedrock settings and credentials from your current shell. If you previously configured these variables in a Claude Code settings file, update or remove the overlapping entries in its `env` section too. See [Claude Code settings precedence](https://code.claude.com/docs/en/settings#settings-precedence) to check which configuration applies.
 
-## 2. Start Claude Code
+For details on endpoint and credential settings, see [Claude Code gateway connection setup](https://code.claude.com/docs/en/llm-gateway-connect).
 
-You can then run Claude Code.
+## 2. Start and verify Claude Code
 
-```
+Start Claude Code from the same terminal:
+
+```bash
 claude
 ```
 
-After initially launching Claude Code, claude will write the variables into a `~/.claude/settings.json` file. You do not need to repeat step #1 again for future sessions.
+Run `/status` and confirm the following:
 
-## If you need to change your `ANTHROPIC_API_KEY`
+- The API base URL is `https://ai-assistant.ai2s.org`, or your workspace's corresponding URL.
+- The credential source is `ANTHROPIC_API_KEY`.
+- The selected model matches the Sonnet-tier model ID you configured.
 
-If for some reason you need to change your AI Assistant API Key, you can use the slash command `/logout` in claude or delete your `~/.claude/settings.json`; then, repeat steps 1-2.
+Send a short prompt, such as `Reply with hello`, and confirm you receive a response.
+
+If the endpoint or credential source differs, check your shell variables and overlapping `env` entries in your Claude Code settings files. If the request fails, confirm your API key and model IDs match those in your workspace and that the models are available through this endpoint.
+
+## 3. Save your configuration
+
+Shell exports apply to the current terminal session and programs started from it. After the test succeeds, add the configuration block from step 1 to `~/.bashrc` for Bash or `~/.zshrc` for Zsh.
+
+Replace any older Claude Code configuration in that file with the block you tested. Reload your shell profile or open a new terminal before launching Claude Code again.
+
+## Update your API key
+
+Replace the value of `ANTHROPIC_API_KEY` in your saved configuration with your new AI Assistant API key. Update any overlapping `ANTHROPIC_API_KEY` entry in a settings file's `env` section too. Reload your configuration, restart Claude Code, and send a short test prompt to verify the new key.
