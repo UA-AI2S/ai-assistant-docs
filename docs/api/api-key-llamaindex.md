@@ -15,14 +15,14 @@ You can obtain a list of the models you have access to with the following comman
 curl -s -L "https://ai-assistant.ai2s.org/v1/models" -H "Authorization: Bearer [AI Assistant API KEY]" -H 'Content-Type: application/json'|jq
 ```
 
-## 3. Write python scripts
+## 3. Write Python scripts
 ```python
 from llama_index.llms.litellm import LiteLLM
 from llama_index.core.llms import ChatMessage
 
 llm = LiteLLM(
     model="litellm_proxy/[MODEL NAME]",
-    api_base="https://ai-assistant.ai2s.org",
+    api_base="https://ai-assistant.ai2s.org/v1",
     api_key="[AI Assistant API KEY]",)
 
 message = ChatMessage(role="user", content="Hey! how's it going?")
@@ -37,16 +37,16 @@ Alternatively, you can include the API key as an environment variable or secret 
 import getpass
 import os
 
-if not os.environ.get("AIVERDE_API_KEY"):
-  os.environ["AIVERDE_API_KEY"] = getpass.getpass("Enter AI Assistant API key: ")
-api_key = os.environ["AIVERDE_API_KEY"]
+if not os.environ.get("AI_ASSISTANT_API_KEY"):
+	os.environ["AI_ASSISTANT_API_KEY"] = getpass.getpass("Enter AI Assistant API key: ")
+api_key = os.environ["AI_ASSISTANT_API_KEY"]
 
 from llama_index.llms.litellm import LiteLLM
 from llama_index.core.llms import ChatMessage
 
 llm = LiteLLM(
     model="litellm_proxy/[MODEL NAME]",
-    api_base="https://ai-assistant.ai2s.org",
+    api_base="https://ai-assistant.ai2s.org/v1",
     api_key=api_key,)
 
 message = ChatMessage(role="user", content="Hey! how's it going?")
@@ -55,4 +55,4 @@ response = llm.chat([message])
 print(response)
 ```
 
-!!! Note "Llama Index embedding support is outlined [here](https://docs.llamaindex.ai/en/stable/api_reference/embeddings/litellm/#llama_index.embeddings.litellm.LiteLLMEmbedding), but functionality depends on access to an embedding model through the AI Assistant."
+!!! Note "LlamaIndex embedding support is outlined [here](https://docs.llamaindex.ai/en/stable/api_reference/embeddings/litellm/#llama_index.embeddings.litellm.LiteLLMEmbedding), but functionality depends on access to an embedding model through the AI Assistant."
