@@ -1,6 +1,6 @@
 # Claude Code (using non-Anthropic Models)
 
-You can follow these instructions to use your AI Assistant API Key after installing Claude Code. More information on using Claude Code can be found here, https://docs.anthropic.com/en/docs/intro.
+You can follow these instructions to use your AI Assistant API Key after installing Claude Code. For general usage, see the [official Claude Code documentation](https://code.claude.com/docs/en/overview).
 
 !!! Note
 
@@ -10,12 +10,12 @@ You can follow these instructions to use your AI Assistant API Key after install
 
 1. Your AI Assistant course or team must be configured to use Anthropic models (see instructor or team lead)
 2. Obtain your AI Assistant API Key. [Instructions can be found here](api-key.md)
-3. Install Claude Code. Instructions can be found here, https://www.anthropic.com/claude-code/
+3. [Install Claude Code](https://code.claude.com/docs/en/setup#install-claude-code).
 4. The remaining instructions assume you have an open terminal on system with Claude Code and bash installed.
 
 ## 1. Set the Environment Variables
 
-Export the following environment variables before launching claude code. Note that you can use the same model for all tiers (Opus/Sonnet/Haiku) or you can use different models for each tier. The model names must match the exact model name in LiteLLM.
+Export the following environment variables before launching claude code. Note that you can use the same model for all tiers (Opus/Sonnet/Haiku) or you can use different models for each tier. The model names must match the exact model name in LiteLLM. See [Claude Code model environment variables](https://code.claude.com/docs/en/model-config#environment-variables) for details on these model settings.
 
 ```bash
 export ANTHROPIC_API_KEY="<your-api-key>"

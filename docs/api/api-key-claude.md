@@ -8,7 +8,7 @@ For the VS Code extension setup, see [Using Claude Code in VS Code with AI Assis
 
 ## Prerequisites
 
-1. [Install Claude Code](https://code.claude.com/docs/en/overview).
+1. [Install Claude Code](https://code.claude.com/docs/en/setup#install-claude-code).
 2. [Obtain your AI Assistant API key](api-key.md).
 3. In your workspace's **API Key** tab, copy the exact model IDs from **Available Models** for the Opus, Sonnet, and Haiku models you will use. See [Check Your Available Models](api-key.md#5-check-your-available-models) for details.
 4. Open a Bash or Zsh terminal on Linux or macOS.
@@ -33,9 +33,9 @@ export ANTHROPIC_MODEL="$ANTHROPIC_DEFAULT_SONNET_MODEL"
 
 If your workspace shows a different AI Assistant base URL, replace its trailing `/v1` with `/bedrock`.
 
-The three `ANTHROPIC_DEFAULT_*_MODEL` variables map Claude Code's model choices to models available in your workspace. `ANTHROPIC_MODEL` starts the session with your chosen Sonnet model.
+The three `ANTHROPIC_DEFAULT_*_MODEL` variables map Claude Code's model choices to models available in your workspace. `ANTHROPIC_MODEL` starts the session with your chosen Sonnet model. See [Claude Code model environment variables](https://code.claude.com/docs/en/model-config#environment-variables) for details on these model settings.
 
-The `unset` line clears conflicting credentials and endpoint settings from your current shell. If you previously configured these variables in a Claude Code settings file, update or remove the overlapping entries in its `env` section too.
+The `unset` line clears conflicting credentials and endpoint settings from your current shell. If you previously configured these variables in a Claude Code settings file, update or remove the overlapping entries in its `env` section too. See [Claude Code settings precedence](https://code.claude.com/docs/en/settings#settings-precedence) to check which configuration applies.
 
 For more details on the Bedrock flags and gateway credentials, see [Claude Code gateway configuration](https://code.claude.com/docs/en/llm-gateway-connect#amazon-bedrock).
 
@@ -84,7 +84,9 @@ For shell-based configuration, add the following line to your shell profile inst
 export CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1
 ```
 
-This setting also disables automatic updates. Update Claude Code manually when using it. See [Claude Code's nonessential traffic settings](https://code.claude.com/docs/en/llm-gateway-connect#turn-off-traffic-outside-the-gateway-path) for details.
+This setting also disables automatic updates. [Update Claude Code manually](https://code.claude.com/docs/en/setup#update-manually) when using it. See [Claude Code's nonessential traffic settings](https://code.claude.com/docs/en/llm-gateway-connect#turn-off-traffic-outside-the-gateway-path) for details.
+
+See the [Claude Code environment variable reference](https://code.claude.com/docs/en/env-vars#variables) for `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`.
 
 ## Update your API key
 
@@ -112,6 +114,8 @@ Replace the value of `ANTHROPIC_AUTH_TOKEN` in your saved configuration with you
     ```
 
     If your workspace shows a different AI Assistant base URL, remove its trailing `/v1` for `ANTHROPIC_BASE_URL`.
+
+    For details on endpoint and credential settings, see [Claude Code gateway connection setup](https://code.claude.com/docs/en/llm-gateway-connect).
 
     Update or remove overlapping `env` entries in Claude Code settings files when switching endpoints. Start Claude Code from the same terminal and run `/status`. Confirm it shows your Anthropic base URL and `ANTHROPIC_API_KEY` as the credential source, then send a short test prompt.
 

@@ -59,7 +59,9 @@ If settings already exist, merge these properties into the existing object. Repl
 }
 ```
 
-The empty values clear conflicting variables inherited by the Claude process. `ANTHROPIC_MODEL` selects your Sonnet model when a new session starts.
+The empty values clear conflicting variables inherited by the Claude process. `ANTHROPIC_MODEL` selects your Sonnet model when a new session starts. See [Claude Code model environment variables](https://code.claude.com/docs/en/model-config#environment-variables) for details on these model settings.
+
+For details on `claudeCode.disableLoginPrompt` and `claudeCode.environmentVariables`, see the [Claude Code extension settings reference](https://code.claude.com/docs/en/vs-code#extension-settings).
 
 The extension also provides an **Edit in settings.json** shortcut under **Claude Code: Environment Variables**. Make sure you edit **User** settings.
 
@@ -124,7 +126,7 @@ Start a new conversation. Open the Claude Code command menu and select **Status*
 
 Send a short prompt, such as `Reply with hello`, and confirm you receive a response.
 
-If the provider, URL, or model differs, check for overlapping settings in both configuration locations. If authentication fails, confirm your API key and clear any remaining `AWS_BEARER_TOKEN_BEDROCK` value.
+If the provider, URL, or model differs, check for overlapping settings in both configuration locations. If authentication fails, confirm your API key and clear any remaining `AWS_BEARER_TOKEN_BEDROCK` value. See [Claude Code settings precedence](https://code.claude.com/docs/en/settings#settings-precedence) to check which configuration applies.
 
 ## Turn off telemetry
 
@@ -137,6 +139,8 @@ To turn off Claude Code telemetry and other nonessential background traffic, add
 For shared Claude Code settings, add `"CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"` to the `env` section instead. Restart VS Code after changing the setting.
 
 This also disables Claude Code's automatic updates. See [Turn off telemetry](api-key-claude.md#turn-off-telemetry) in the CLI guide for details.
+
+See the [Claude Code environment variable reference](https://code.claude.com/docs/en/env-vars#variables) for `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`.
 
 ## Update your API key
 
