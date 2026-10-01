@@ -16,10 +16,10 @@ Under **Settings > Members**, you can add and remove members and assign roles.
 
 ### Roles
 
-| Role       | Can Chat | Can Use API Key | Can Manage Members | Can Edit Settings |
-| ---------- | -------- | --------------- | ------------------ | ----------------- |
-| **Admin**  | Yes      | Yes             | Yes                | Yes               |
-| **Member** | Yes      | Yes             | No                 | No                |
+| Role       | Can use API key | Can manage members | Can edit settings |
+| ---------- | --------------- | ------------------ | ----------------- |
+| **Admin**  | Yes             | Yes                | Yes               |
+| **Member** | Yes             | No                 | No                |
 
 ### Adding Members Individually
 
@@ -53,7 +53,7 @@ The **API Key** tab shows the member's API key for this workspace. Each member g
 <!-- IMAGE NEEDED: API Key tab -->
 
 !!! tip
-Members do not need accounts with OpenAI, Anthropic, or any other provider. The AI Assistant API key is all they need.
+    Members do not need accounts with OpenAI, Anthropic, or any other provider. The AI Assistant API key is all they need.
 
 Members can find their key on the API Key tab and regenerate it if needed. For setup instructions, see [Obtaining Your API Key](../api/api-key.md).
 
@@ -80,7 +80,7 @@ Under **Settings > Budget**, you can monitor spending and control how your budge
 The budget page shows total workspace spend against the allocated maximum. Below that, a per-member usage table breaks down how much each individual has consumed.
 
 !!! note
-You cannot increase the total workspace budget yourself — this requires a request to the AI2S team. Contact **ai-assistant-support@list.arizona.edu** to request an increase.
+    You cannot increase the total workspace budget yourself. Contact **ai-assistant-support@list.arizona.edu** to request an increase from the AI2S team.
 
 ### Per-Member Limits
 
@@ -90,4 +90,4 @@ You can cap how much any single member can spend. There are two ways to do this:
 - **Custom member budget** — Override the default for specific members from the per-member usage table.
 
 !!! warning
-If your workspace budget is exhausted, API keys and chat will stop working until the budget is replenished.
+    If your workspace budget is exhausted, API keys and chat will stop working until the budget is replenished.
