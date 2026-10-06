@@ -1,7 +1,7 @@
 # Current Models
 
 !!! Important
-    Last Updated: September 30, 2026
+    Last Updated: October 5, 2026
 
 This page provides details about models available through AI Assistant.
 
@@ -10,6 +10,8 @@ This page provides details about models available through AI Assistant.
 | claude-haiku-4-5-20251001 | us.anthropic.claude-haiku-4-5-20251001-v1:0 | 200,000              | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | claude-sonnet-5           | us.anthropic.claude-sonnet-5                | 1,000,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | claude-opus-5             | us.anthropic.claude-opus-5                  | 1,000,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| claude-sonnet-5-5         | us.anthropic.claude-sonnet-5-5              | 1,000,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| claude-opus-5-5           | us.anthropic.claude-opus-5-5                | 1,000,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | gpt-5.6-luna              |                                             | 1,050,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | gpt-5.6-terra             |                                             | 1,050,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | gpt-5.6-sol               |                                             | 1,050,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
