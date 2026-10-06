@@ -20,9 +20,9 @@ To request a new workspace for your course, lab, or team:
 
 1. Fill out the [workspace request form](https://docs.google.com/forms/d/e/1FAIpQLSdWX9Nf9gsJ4vJ9r1FBIrW61QE60T9tl6uEbxFjTut3mUATEg/viewform){target=\_new}.
 2. The AI2S team will create your workspace and contact you once it's ready.
-3. Your workspace will appear on your dashboard at [ai-assistant.ai2s.org](https://ai-assistant.ai2s.org/).
+3. Your workspace will appear on your dashboard at [ai-assistant.responsibleai.arizona.edu](https://ai-assistant.responsibleai.arizona.edu/).
 
-You can also find the request form by visiting [ai-assistant.ai2s.org](https://ai-assistant.ai2s.org/) and clicking **Get Access**.
+You can also find the request form by visiting [ai-assistant.responsibleai.arizona.edu](https://ai-assistant.responsibleai.arizona.edu/) and clicking **Get Access**.
 
 ## Support
 

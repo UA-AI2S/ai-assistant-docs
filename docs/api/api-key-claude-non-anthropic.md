@@ -20,7 +20,7 @@ Replace the placeholders below with your API key and the non-Anthropic model IDs
 unset CLAUDE_CODE_USE_BEDROCK CLAUDE_CODE_SKIP_BEDROCK_AUTH
 unset ANTHROPIC_BEDROCK_BASE_URL ANTHROPIC_AUTH_TOKEN AWS_BEARER_TOKEN_BEDROCK
 
-export ANTHROPIC_BASE_URL="https://ai-assistant.ai2s.org"
+export ANTHROPIC_BASE_URL="https://ai-assistant.responsibleai.arizona.edu"
 export ANTHROPIC_API_KEY="<your-ai-assistant-api-key>"
 
 export ANTHROPIC_DEFAULT_OPUS_MODEL="<opus-tier-model-id>"
@@ -47,7 +47,7 @@ claude
 
 Run `/status` and confirm the following:
 
-- The API base URL is `https://ai-assistant.ai2s.org`, or your workspace's corresponding URL.
+- The API base URL is `https://ai-assistant.responsibleai.arizona.edu`, or your workspace's corresponding URL.
 - The credential source is `ANTHROPIC_API_KEY`.
 - The selected model matches the Sonnet-tier model ID you configured.
 

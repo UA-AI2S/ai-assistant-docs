@@ -48,7 +48,7 @@ If settings already exist, merge these properties into the existing object. Repl
 		{ "name": "ANTHROPIC_API_KEY", "value": "" },
 		{ "name": "AWS_BEARER_TOKEN_BEDROCK", "value": "" },
 		{ "name": "ANTHROPIC_AUTH_TOKEN", "value": "<your-ai-assistant-api-key>" },
-		{ "name": "ANTHROPIC_BEDROCK_BASE_URL", "value": "https://ai-assistant.ai2s.org/bedrock" },
+		{ "name": "ANTHROPIC_BEDROCK_BASE_URL", "value": "https://ai-assistant.responsibleai.arizona.edu/bedrock" },
 		{ "name": "CLAUDE_CODE_SKIP_BEDROCK_AUTH", "value": "1" },
 		{ "name": "CLAUDE_CODE_USE_BEDROCK", "value": "1" },
 		{ "name": "ANTHROPIC_DEFAULT_OPUS_MODEL", "value": "<opus-model-id>" },
@@ -90,7 +90,7 @@ If your workspace shows a different AI Assistant base URL, replace its trailing 
     		"ANTHROPIC_API_KEY": "",
     		"AWS_BEARER_TOKEN_BEDROCK": "",
     		"ANTHROPIC_AUTH_TOKEN": "<your-ai-assistant-api-key>",
-    		"ANTHROPIC_BEDROCK_BASE_URL": "https://ai-assistant.ai2s.org/bedrock",
+    		"ANTHROPIC_BEDROCK_BASE_URL": "https://ai-assistant.responsibleai.arizona.edu/bedrock",
     		"CLAUDE_CODE_SKIP_BEDROCK_AUTH": "1",
     		"CLAUDE_CODE_USE_BEDROCK": "1",
     		"ANTHROPIC_DEFAULT_OPUS_MODEL": "<opus-model-id>",
@@ -120,7 +120,7 @@ You can also open the panel by clicking the Claude Code icon in the editor toolb
 Start a new conversation. Open the Claude Code command menu and select **Status**, or enter `/status` in the chat. Confirm the following:
 
 - The API provider is **Amazon Bedrock**.
-- The Bedrock base URL is `https://ai-assistant.ai2s.org/bedrock`, or your workspace's corresponding URL.
+- The Bedrock base URL is `https://ai-assistant.responsibleai.arizona.edu/bedrock`, or your workspace's corresponding URL.
 - AWS authentication is skipped.
 - The selected model matches the Sonnet model ID you configured.
 

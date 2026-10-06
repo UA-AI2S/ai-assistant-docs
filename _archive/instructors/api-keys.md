@@ -29,7 +29,7 @@ API key usage counts against the workspace budget. You can:
 1. Confirm the student is listed on the **Members** tab.
 2. Check that the workspace is set to **Active**.
 3. Verify the workspace budget hasn't been exceeded.
-4. Make sure the student is using the correct base URL: `https://ai-assistant.ai2s.org/`.
+4. Make sure the student is using the correct base URL: `https://ai-assistant.responsibleai.arizona.edu/`.
 
 **Can I create a shared API key for the whole class?**
 :   No. Each member has their own key so that usage can be tracked individually and budget limits can be enforced per person.

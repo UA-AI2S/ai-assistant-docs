@@ -21,7 +21,7 @@ Replace the placeholders below with your API key and the model IDs from your wor
 unset ANTHROPIC_BASE_URL ANTHROPIC_API_KEY AWS_BEARER_TOKEN_BEDROCK
 
 export ANTHROPIC_AUTH_TOKEN="<your-ai-assistant-api-key>"
-export ANTHROPIC_BEDROCK_BASE_URL="https://ai-assistant.ai2s.org/bedrock"
+export ANTHROPIC_BEDROCK_BASE_URL="https://ai-assistant.responsibleai.arizona.edu/bedrock"
 export CLAUDE_CODE_SKIP_BEDROCK_AUTH=1
 export CLAUDE_CODE_USE_BEDROCK=1
 
@@ -50,7 +50,7 @@ claude
 Run `/status` and confirm the following:
 
 - The API provider is **Amazon Bedrock**.
-- The Bedrock base URL is `https://ai-assistant.ai2s.org/bedrock`, or your workspace's corresponding URL.
+- The Bedrock base URL is `https://ai-assistant.responsibleai.arizona.edu/bedrock`, or your workspace's corresponding URL.
 - AWS authentication is skipped.
 - The selected model matches the Sonnet model ID you configured.
 
@@ -98,13 +98,13 @@ Replace the value of `ANTHROPIC_AUTH_TOKEN` in your saved configuration with you
 
     Use this configuration when the AI Assistant support team directs you to AI Assistant's Anthropic-compatible endpoint. For the initial Bedrock-hosted models, use the main setup above.
 
-    This endpoint uses your AI Assistant API key and the base URL `https://ai-assistant.ai2s.org`. Replace the placeholders with the exact model IDs available through this endpoint in your workspace.
+    This endpoint uses your AI Assistant API key and the base URL `https://ai-assistant.responsibleai.arizona.edu`. Replace the placeholders with the exact model IDs available through this endpoint in your workspace.
 
     ```bash
     unset CLAUDE_CODE_USE_BEDROCK CLAUDE_CODE_SKIP_BEDROCK_AUTH
     unset ANTHROPIC_BEDROCK_BASE_URL ANTHROPIC_AUTH_TOKEN AWS_BEARER_TOKEN_BEDROCK
 
-    export ANTHROPIC_BASE_URL="https://ai-assistant.ai2s.org"
+    export ANTHROPIC_BASE_URL="https://ai-assistant.responsibleai.arizona.edu"
     export ANTHROPIC_API_KEY="<your-ai-assistant-api-key>"
 
     export ANTHROPIC_DEFAULT_OPUS_MODEL="<opus-model-id>"

@@ -62,8 +62,8 @@ Follow these steps after initial setup or to update an existing Goose configurat
 
     | Field | Value |
     | --- | --- |
-    | **Base Url** (`OPENAI_BASE_URL`) | `https://ai-assistant.ai2s.org/v1` |
-    | **OpenAI Host** | `https://ai-assistant.ai2s.org` |
+    | **Base Url** (`OPENAI_BASE_URL`) | `https://ai-assistant.responsibleai.arizona.edu/v1` |
+    | **OpenAI Host** | `https://ai-assistant.responsibleai.arizona.edu` |
     | **OpenAI Base Path** | `v1/chat/completions` |
 
     If your workspace shows a different API base URL, use it for **Base Url** and remove its trailing `/v1` for **OpenAI Host**. Keep **OpenAI Base Path** as `v1/chat/completions`.

@@ -4,7 +4,7 @@ Your API key lets you connect to the AI Assistant from external tools, scripts, 
 
 ## 1. Sign In
 
-1. Go to [https://ai-assistant.ai2s.org/](https://ai-assistant.ai2s.org/){target=\_new}.
+1. Go to [https://ai-assistant.responsibleai.arizona.edu/](https://ai-assistant.responsibleai.arizona.edu/){target=\_new}.
 2. Click **Log in with NetID**.
 3. Sign in with your NetID.
 

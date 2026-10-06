@@ -72,7 +72,7 @@ Open the appropriate file in a text editor:
 
 
 -  To test the key, use it in an API call:
-    ```curl -H "Authorization: Bearer $OPENAI_BASE_URL" https://ai-assistant.ai2s.org/endpoint```
+    ```curl -H "Authorization: Bearer $OPENAI_BASE_URL" https://ai-assistant.responsibleai.arizona.edu/endpoint```
 
 ![authorization](../assets/curl-h-authorization.png){: style="width:50%"}
 
