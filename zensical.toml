@@ -17,7 +17,7 @@ site_name = "University of Arizona AI Assistant"
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "Manual and resource site for the University of Arizona's AI Assistant, providing guides for using the chat interface and API."
+site_description = "Manual and resource site for the University of Arizona's AI Assistant, providing guides for using the API and managing workspaces."
 
 # The site_author attribute. This is used in the HTML head element.
 #

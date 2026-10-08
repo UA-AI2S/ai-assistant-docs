@@ -8,7 +8,7 @@ For Claude models hosted on AWS Bedrock, see [Using Claude Code with AI Assistan
 
 1. [Install Claude Code](https://code.claude.com/docs/en/setup#install-claude-code).
 2. [Obtain your AI Assistant API key](api-key.md).
-3. Confirm with your workspace admin that non-Anthropic models are available through the Anthropic-compatible endpoint.
+3. Confirm that your workspace has non-Anthropic models available through the Anthropic-compatible endpoint.
 4. Copy the exact model IDs from your workspace's **Available Models** section. See [Check your available models](api-key.md#5-check-your-available-models).
 5. Open a Bash or Zsh terminal on Linux or macOS.
 

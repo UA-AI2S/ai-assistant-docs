@@ -59,7 +59,7 @@ Members can find their key on the API Key tab and regenerate it if needed. For s
 
 ## Models
 
-The models listed on your workspace are what members can access through both the chat interface and the API. The model list is configured under **General Settings**.
+The models listed on your workspace are what members can access through the API. The model list is configured under **General Settings**.
 
 - Models are hosted on **AWS Bedrock** and **on-premise** infrastructure — members never interact with external providers directly.
 - To request a specific model, contact **ai-assistant-support@list.arizona.edu**.
@@ -90,4 +90,4 @@ You can cap how much any single member can spend. There are two ways to do this:
 - **Custom member budget** — Override the default for specific members from the per-member usage table.
 
 !!! warning
-    If your workspace budget is exhausted, API keys and chat will stop working until the budget is replenished.
+    If your workspace budget is exhausted, API keys will stop working until the budget is replenished.

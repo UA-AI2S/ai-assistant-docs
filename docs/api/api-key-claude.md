@@ -96,7 +96,7 @@ Replace the value of `ANTHROPIC_AUTH_TOKEN` in your saved configuration with you
 
 ??? note "Use the Anthropic-compatible endpoint"
 
-    Use this configuration when your workspace admin directs you to AI Assistant's Anthropic-compatible endpoint. For the initial Bedrock-hosted models, use the main setup above.
+    Use this configuration when the AI Assistant support team directs you to AI Assistant's Anthropic-compatible endpoint. For the initial Bedrock-hosted models, use the main setup above.
 
     This endpoint uses your AI Assistant API key and the base URL `https://ai-assistant.ai2s.org`. Replace the placeholders with the exact model IDs available through this endpoint in your workspace.
 

@@ -14,8 +14,8 @@ Your personal workspace gives you:
 
 |                | Personal Workspace             | Shared Workspace                                  |
 | -------------- | ------------------------------ | ------------------------------------------------- |
-| **Created by** | Automatically on first sign-in | An instructor or team lead                        |
+| **Created by** | Automatically on first sign-in | System admins, on an instructor's request         |
 | **Members**    | Just you                       | You and other workspace members                   |
 | **Models**     | Platform defaults              | Configured by the workspace admin                 |
-| **Budget**     | Individual allowance           | Shared pool managed by the admin                  |
+| **Budget**     | Individual allowance           | Shared pool; workspace admins set member limits   |
 | **API key**    | Your own                       | Your own (but usage draws from the shared budget) |

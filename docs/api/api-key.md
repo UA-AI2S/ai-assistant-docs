@@ -29,6 +29,9 @@ The **API Key** page displays your personal API key. Click the eye icon to revea
 ![Copying your API key](../assets/api_key_tab_get_key.png#only-light)
 ![Copying your API key](../assets/api_key_tab_get_key_dark.png#only-dark)
 
+!!! warning "Keep your key private"
+    Do not share your API key or commit it to a repository. If your key is exposed, regenerate it from the **API Key** tab. Only you and the system admins can regenerate your key; workspace admins cannot.
+
 ## 5. Check Your Available Models
 
 The **Available Models** section shows which models your workspace has access to. Use these model names exactly when making API calls.

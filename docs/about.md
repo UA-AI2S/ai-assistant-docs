@@ -6,18 +6,17 @@ University faculty, staff, and students are given a monthly usage allocation.
 
 ## Features
 
-- **Use your API key with external tools** — Connect the AI Assistant to IDEs, coding assistants like Claude Code and Aider, desktop clients like Goose, or any OpenAI-compatible tool or library.
-- **Chat with AI models** — Use the built-in web chat interface to interact with available AI models. _(Coming soon)_
+- **Use your API key with external tools** — Connect the AI Assistant to IDEs, coding assistants like Claude Code, desktop clients like Goose, or any OpenAI-compatible tool or library.
 - **Workspaces for teams and courses** — Create shared workspaces for teams, courses, projects, and research groups.
-- **Budget management** — Set budgets at the workspace level and for each member.
-- **Bring Your Own (BYO) LLM** — Instructors or team leads can bring their own commercial or third-party LLM and share access with their workspace members.
+- **Budget management** — Each workspace has a total budget, and workspace admins can set spending limits for individual members.
+- **Bring Your Own (BYO) LLM** — Instructors or team leads can request that their own commercial or third-party LLM be added to their workspace.
 - **Built-in guardrails** — Ensure responsible, safe, and effective use of AI.
 
 ## Getting Started
 
 Start with [getting access](getting-access.md) to learn how to access your own personal workspaces and get added to the workspaces of others.
 
-When you have access, [obtain your API Assistant API key](/ai-assistant-docs/api/api-key/) to connect to the models usable in your workspace.
+When you have access, [obtain your AI Assistant API key](api/api-key.md) to connect to the models usable in your workspace.
 
 ## Support
 
