@@ -11,7 +11,7 @@
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "University of Arizona AI Assistant"
+site_name = "University of Arizona AI Assistant Docs"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
@@ -61,6 +61,7 @@ nav = [
         { "Claude Code for VS Code" = "api/api-key-claude-vscode.md" },
       ]},
       { "Desktop Clients" = [
+        { "Claude Desktop" = "api/api-key-claude-desktop.md" },
         { "Goose" = "api/goose_desktop.md" },
       ]},
       #{ "IDEs" = [
