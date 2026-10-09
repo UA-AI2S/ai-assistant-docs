@@ -1,5 +1,8 @@
 # Your Personal Workspace
 
+!!! warning "Beta Access Required"
+    Personal workspaces are only being created for those with beta access..
+
 Every user gets a personal workspace when they sign in to AI Assistant. This is separate from any shared workspaces your instructor or team lead may have added you to.
 
 ## What's in Your Personal Workspace

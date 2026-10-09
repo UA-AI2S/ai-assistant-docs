@@ -1,5 +1,8 @@
 # Welcome
 
+!!! warning "Beta"
+    AI Assistant is currently in beta and available to beta testers. If you would like access, encounter bugs, or experience unexpected behavior, please report them to **ai-assistant-support@list.arizona.edu**.
+
 The University of Arizona AI Assistant is an open source platform that provides access to commercial and on-premise large language models (LLMs) with built-in budget and access controls. It is designed for teams, labs, and courses at the University of Arizona.
 
 ## Where to Go
