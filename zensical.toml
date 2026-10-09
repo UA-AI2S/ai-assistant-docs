@@ -61,8 +61,8 @@ nav = [
         { "Claude Code for VS Code" = "api/api-key-claude-vscode.md" },
       ]},
       { "Desktop Clients" = [
-        { "Goose" = "api/goose_desktop.md" },
         { "Claude Desktop" = "api/api-key-claude-desktop.md" },
+        { "Goose" = "api/goose_desktop.md" },
       ]},
       #{ "IDEs" = [
       #  { "VSCode" = "api/api-key-vscode.md" },
