@@ -1,7 +1,7 @@
 # Current Models
 
 !!! Important
-    Last Updated: October 5, 2026
+    Last Updated: October 9, 2026
 
 This page provides details about models available through AI Assistant.
 
@@ -15,6 +15,7 @@ This page provides details about models available through AI Assistant.
 | gpt-5.6-luna              |                                             | 1,050,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | gpt-5.6-terra             |                                             | 1,050,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | gpt-5.6-sol               |                                             | 1,050,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| google.gemma-4-31b        |                                             | 256,000              | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 !!! Note
     To use a model, you can use the model name or alias (if provided.)
