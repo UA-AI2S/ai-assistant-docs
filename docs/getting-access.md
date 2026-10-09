@@ -1,5 +1,8 @@
 # Getting Access
 
+!!! warning "Beta"
+    AI Assistant is currently in a limited beta. To request beta access, email **ai-assistant-support@list.arizona.edu**.
+
 AI Assistant is available to University of Arizona faculty, staff, and students.
 
 ## Personal Workspace

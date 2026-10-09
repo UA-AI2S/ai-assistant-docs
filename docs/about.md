@@ -1,5 +1,8 @@
 # About AI Assistant
 
+!!! warning "Beta"
+    AI Assistant is currently in beta and available to beta testers only. If you would encounter bugs or unexpected behavior, please email **ai-assistant-support@list.arizona.edu**.
+
 **AI Assistant** is an AI integration platform built by the [**Office of Responsible AI**](https://responsibleai.arizona.edu/){target=\_new} at The University of Arizona. It provides access to leading large language models (LLMs) for individuals, teams, and courses. Models are hosted on AWS Bedrock and on-premise.
 
 University faculty, staff, and students are given a monthly usage allocation.
