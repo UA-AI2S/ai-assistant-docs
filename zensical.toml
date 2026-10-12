@@ -53,6 +53,9 @@ nav = [
     { "Introduction" = "api/getting-started.md"},
     { "Obtaining Your API Key" = "api/api-key.md" },
     { "Using Your API Key" = [
+      { "Claude for Microsoft 365" = [
+        { "Word, PowerPoint, and Excel" = "api/api-key-claude-ms365.md" },
+      ]},
       { "CLI Coding Assistants" = [
         { "Claude Code CLI" = "api/api-key-claude.md" },
         { "Claude Code with non-Anthropic models" = "api/api-key-claude-non-anthropic.md" },
