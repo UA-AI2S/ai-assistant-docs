@@ -14,21 +14,25 @@ For the terminal setup, see [Using Claude Code with AI Assistant](api-key-claude
 
 Open the **Extensions** view in VS Code, search for **Claude Code**, and install **Claude Code for VS Code** published by **Anthropic**.
 
-![Claude Code for VS Code extension published by Anthropic](../assets/vscode_claude_code_extension_install.png){: style="width:480px; max-width:100%; height:auto;"}
+![Claude Code for VS Code extension published by Anthropic](../assets/vscode_claude_code_extension_install_dark.png#only-dark){: style="max-width:540px; width:100%; height:auto;"}
+![Claude Code for VS Code extension published by Anthropic](../assets/vscode_claude_code_extension_install_light.png#only-light){: style="max-width:540px; width:100%; height:auto;"}
 
 ## 2. Configure Bedrock
 
 Open the installed extension's page.
 
-![Installed Claude Code extension page](../assets/vscode_claude_code_extension_page.png){: style="width:640px; max-width:100%; height:auto;"}
+![Installed Claude Code extension page](../assets/vscode_claude_code_extension_page_dark.png#only-dark){: style="max-width:640px; width:100%; height:auto;"}
+![Installed Claude Code extension page](../assets/vscode_claude_code_extension_page_light.png#only-light){: style="max-width:640px; width:100%; height:auto;"}
 
 Click the gear icon and select **Settings**.
 
-![Claude Code extension settings menu](../assets/vscode_claude_code_extension_gear_dropdown.png){: style="width:400px; max-width:100%; height:auto;"}
+![Claude Code extension settings menu](../assets/vscode_claude_code_extension_gear_dropdown_dark.png#only-dark){: style="max-width:350px; width:100%; height:auto;"}
+![Claude Code extension settings menu](../assets/vscode_claude_code_extension_gear_dropdown_light.png#only-light){: style="max-width:350px; width:100%; height:auto;"}
 
 Under **User** settings, enable **Claude Code: Disable Login Prompt**. This setting is required for both configuration options below.
 
-![Disable Login Prompt enabled in VS Code user settings](../assets/vscode_claude_code_extension_settings_disable_login_prompt.png){: style="width:100%; max-width:100%; height:auto;"}
+![Disable Login Prompt enabled in VS Code user settings](../assets/vscode_claude_code_extension_settings_disable_login_prompt_dark.png#only-dark){: style="max-width:640px; width:100%; height:auto;"}
+![Disable Login Prompt enabled in VS Code user settings](../assets/vscode_claude_code_extension_settings_disable_login_prompt_light.png#only-light){: style="max-width:640px; width:100%; height:auto;"}
 
 Remove older `ANTHROPIC_BASE_URL`, `ANTHROPIC_API_KEY`, and `AWS_BEARER_TOKEN_BEDROCK` entries from your Claude Code configuration and any shell profile used to launch VS Code. `AWS_BEARER_TOKEN_BEDROCK` can override your AI Assistant credential.
 
@@ -65,7 +69,8 @@ For details on `claudeCode.disableLoginPrompt` and `claudeCode.environmentVariab
 
 The extension also provides an **Edit in settings.json** shortcut under **Claude Code: Environment Variables**. Make sure you edit **User** settings.
 
-![Environment Variables setting with an Edit in settings.json shortcut](../assets/vscode_claude_code_extension_settings_env_var.png){: style="width:520px; max-width:100%; height:auto;"}
+![Environment Variables setting with an Edit in settings.json shortcut](../assets/vscode_claude_code_extension_settings_env_var_dark.png#only-dark){: style="max-width:540px; width:100%; height:auto;"}
+![Environment Variables setting with an Edit in settings.json shortcut](../assets/vscode_claude_code_extension_settings_env_var_light.png#only-light){: style="max-width:540px; width:100%; height:auto;"}
 
 If your workspace shows a different AI Assistant base URL, replace its trailing `/v1` with `/bedrock`.
 
@@ -109,13 +114,13 @@ For details on these settings locations, see [Claude Code gateway configuration]
 
 ## 3. Restart and verify the connection
 
-Save your settings and restart VS Code. Open the Claude Code panel from the Activity Bar.
+Save your settings and restart VS Code. Open the Claude Code panel from the Activity Bar or the editor toolbar in the top right.
 
-![Claude Code panel in the VS Code Activity Bar](../assets/vscode_claude_code_chat_button.png){: style="width:420px; max-width:100%; height:auto;"}
+![Claude Code icon in the Activity Bar](../assets/vscode_claude_code_activity_bar_dark.png#only-dark){: style="max-width:190px; width:100%; height:auto;"}
+![Claude Code icon in the Activity Bar](../assets/vscode_claude_code_activity_bar_light.png#only-light){: style="max-width:120px; width:100%; height:auto;"}
 
-You can also open the panel by clicking the Claude Code icon in the editor toolbar.
-
-![Claude Code icon in the editor toolbar](../assets/vscode_claude_code_chat_icon.png){: style="width:420px; max-width:100%; height:auto;"}
+![Claude Code icon in the editor toolbar](../assets/vscode_claude_code_editor_toolbar_dark.png#only-dark){: style="max-width:420px; width:100%; height:auto;"}
+![Claude Code icon in the editor toolbar](../assets/vscode_claude_code_editor_toolbar_light.png#only-light){: style="max-width:420px; width:100%; height:auto;"}
 
 Start a new conversation. Open the Claude Code command menu and select **Status**, or enter `/status` in the chat. Confirm the following:
 
