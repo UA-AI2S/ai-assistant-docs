@@ -20,7 +20,7 @@ Claude Desktop is Anthropic's desktop chat application for Windows, macOS, and L
 1. Open the **Help** menu.
 2. Hover over **Troubleshooting**.
 3. Click **Enable Developer Mode...**.
- 
+
 ![Enable Developer Mode](../assets/claude_desktop_enable_developer_mode.png){: style="width:100%; height:auto;"}
 
 ## 2. Open the third-party inference settings
@@ -45,7 +45,6 @@ On the **Connection** settings page, configure the following fields:
 7. Click **Apply Changes**.
 
 ![Configure Third-Party Inference panel with Gateway credentials](../assets/claude_desktop_configure_inference.png){: style="width:100%; height:auto;"}
-
 
 You can now use Claude Desktop as you normally would. Requests are sent through the AI Assistant gateway using your API key.
 

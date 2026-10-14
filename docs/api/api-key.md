@@ -57,6 +57,7 @@ Once you have your API key, see the guides below for using it in different envir
 | **IDEs**                                            |                                                         |
 | [Claude Code for VS Code](api-key-claude-vscode.md) | VS Code extension using Claude models on AWS Bedrock    |
 | **Desktop Clients**                                 |                                                         |
+| [Claude Desktop](api-key-claude-desktop.md)         | Anthropic's desktop chat app                            |
 | [Goose](goose_desktop.md)                           | Desktop chat client                                     |
 | **Libraries**                                       |                                                         |
 | [LangChain](api-key-langchain.md)                 | Python integration with LangChain                     |
