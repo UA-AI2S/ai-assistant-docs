@@ -73,6 +73,7 @@ nav = [
         { "LlamaIndex" = "api/api-key-llamaindex.md" },
       ]},
     ]},
+    { "Troubleshooting Errors" = "api/troubleshooting.md" },
   ]},
   { "For Instructors" = [
     { "Getting Started" = "instructors/getting-started.md" },
