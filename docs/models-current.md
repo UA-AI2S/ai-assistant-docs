@@ -1,7 +1,7 @@
 # Current Models
 
 !!! Important
-    Last Updated: October 9, 2026
+    Last Updated: October 13, 2026
 
 This page provides details about models available through AI Assistant.
 
@@ -10,11 +10,14 @@ This page provides details about models available through AI Assistant.
 | claude-haiku-4-5-20251001 | us.anthropic.claude-haiku-4-5-20251001-v1:0 | 200,000              | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | claude-sonnet-5           | us.anthropic.claude-sonnet-5                | 1,000,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | claude-opus-5             | us.anthropic.claude-opus-5                  | 1,000,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| claude-haiku-5-5          | us.anthropic.claude-haiku-5-5               | 1,000,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | claude-sonnet-5-5         | us.anthropic.claude-sonnet-5-5              | 1,000,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | claude-opus-5-5           | us.anthropic.claude-opus-5-5                | 1,000,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | gpt-5.6-luna              |                                             | 1,050,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | gpt-5.6-terra             |                                             | 1,050,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | gpt-5.6-sol               |                                             | 1,050,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| gpt-6-luna                |                                             | 1,000,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| gpt-6.1-sol               |                                             | 1,050,000            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | google.gemma-4-31b        |                                             | 256,000              | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 !!! Note
