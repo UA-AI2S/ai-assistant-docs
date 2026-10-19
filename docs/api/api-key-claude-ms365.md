@@ -1,6 +1,6 @@
 # Using Claude for Microsoft 365 with AI Assistant
 
-**Claude for Microsoft 365** is Anthropic's add-in for **Word**, **Excel**, and **PowerPoint**. It adds a Claude sidebar to these apps so you can draft, revise, and review documents, spreadsheets, and slides without leaving them. Configure it to connect through the AI Assistant gateway using your AI Assistant API key instead of signing in with an Anthropic account.
+**Claude for Microsoft 365** is Anthropic's add-in for **Word**, **Excel**, and **PowerPoint**. It adds a Claude sidebar to these apps so you can draft, revise, and review documents, spreadsheets, and slides within the app. Configure it to connect through the AI Assistant gateway using your API key instead of signing in with an Anthropic account.
 
 ## Prerequisites
 
@@ -10,7 +10,7 @@
 
 ## 1. Install the add-in
 
-1. Go to the [Claude for Microsoft 365 listing](https://marketplace.microsoft.com/en-us/product/wa200010725) on Microsoft Marketplace (by **Claude by Anthropic for Office**) and click **Get it now**.
+1. Go to the [Claude for Microsoft 365 add-in](https://marketplace.microsoft.com/en-us/product/wa200010725) on Microsoft Marketplace (by **Claude by Anthropic for Office**) and click **Get it now**.
 
     ![Claude for Microsoft 365 listing on Microsoft Marketplace with the Get it now button](../assets/claude_ms365_marketplace_product.png){: style="width:100%; height:auto;"}
 

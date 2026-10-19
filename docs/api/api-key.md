@@ -59,6 +59,8 @@ Once you have your API key, see the guides below for using it in different envir
 | **Desktop Clients**                                 |                                                         |
 | [Claude Desktop](api-key-claude-desktop.md)         | Anthropic's desktop chat app                            |
 | [Goose](goose_desktop.md)                           | Desktop chat client                                     |
+| **Microsoft Office Add-ins**                        |                                                         |
+| [Claude for Microsoft 365](api-key-claude-ms365.md) | Claude add-in for Word, Excel, and PowerPoint            |
 | **Libraries**                                       |                                                         |
 | [LangChain](api-key-langchain.md)                 | Python integration with LangChain                     |
 | [LlamaIndex](api-key-llamaindex.md)               | Python integration with LlamaIndex                    |
