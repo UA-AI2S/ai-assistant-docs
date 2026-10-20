@@ -10,30 +10,46 @@ For Claude models hosted on AWS Bedrock, see [Using Claude Code with AI Assistan
 2. [Obtain your AI Assistant API key](api-key.md).
 3. Confirm that your workspace has non-Anthropic models available through the Anthropic-compatible endpoint.
 4. Copy the exact model IDs from your workspace's **Available Models** section. See [Check your available models](api-key.md#5-check-your-available-models).
-5. Open a Bash or Zsh terminal on Linux or macOS.
+5. Open a terminal: Bash or Zsh on macOS or Linux, or PowerShell on Windows.
 
 ## 1. Configure the Anthropic-compatible endpoint
 
-Replace the placeholders below with your API key and the non-Anthropic model IDs available in your workspace.
+Select your system below, then replace the placeholders with your API key and the non-Anthropic model IDs available in your workspace.
 
-```bash
-unset CLAUDE_CODE_USE_BEDROCK CLAUDE_CODE_SKIP_BEDROCK_AUTH
-unset ANTHROPIC_BEDROCK_BASE_URL ANTHROPIC_AUTH_TOKEN AWS_BEARER_TOKEN_BEDROCK
+=== "macOS and Linux"
 
-export ANTHROPIC_BASE_URL="https://ai-assistant.responsibleai.arizona.edu"
-export ANTHROPIC_API_KEY="<your-ai-assistant-api-key>"
+    ```bash
+    unset CLAUDE_CODE_USE_BEDROCK CLAUDE_CODE_SKIP_BEDROCK_AUTH
+    unset ANTHROPIC_BEDROCK_BASE_URL ANTHROPIC_AUTH_TOKEN AWS_BEARER_TOKEN_BEDROCK
 
-export ANTHROPIC_DEFAULT_OPUS_MODEL="<opus-tier-model-id>"
-export ANTHROPIC_DEFAULT_SONNET_MODEL="<sonnet-tier-model-id>"
-export ANTHROPIC_DEFAULT_HAIKU_MODEL="<haiku-tier-model-id>"
-export ANTHROPIC_MODEL="$ANTHROPIC_DEFAULT_SONNET_MODEL"
-```
+    export ANTHROPIC_BASE_URL="https://ai-assistant.responsibleai.arizona.edu"
+    export ANTHROPIC_API_KEY="<your-ai-assistant-api-key>"
+
+    export ANTHROPIC_DEFAULT_OPUS_MODEL="<opus-tier-model-id>"
+    export ANTHROPIC_DEFAULT_SONNET_MODEL="<sonnet-tier-model-id>"
+    export ANTHROPIC_DEFAULT_HAIKU_MODEL="<haiku-tier-model-id>"
+    export ANTHROPIC_MODEL="$ANTHROPIC_DEFAULT_SONNET_MODEL"
+    ```
+
+=== "Windows"
+
+    ```powershell
+    Remove-Item Env:CLAUDE_CODE_USE_BEDROCK, Env:CLAUDE_CODE_SKIP_BEDROCK_AUTH, Env:ANTHROPIC_BEDROCK_BASE_URL, Env:ANTHROPIC_AUTH_TOKEN, Env:AWS_BEARER_TOKEN_BEDROCK -ErrorAction SilentlyContinue
+
+    $env:ANTHROPIC_BASE_URL = "https://ai-assistant.responsibleai.arizona.edu"
+    $env:ANTHROPIC_API_KEY = "<your-ai-assistant-api-key>"
+
+    $env:ANTHROPIC_DEFAULT_OPUS_MODEL = "<opus-tier-model-id>"
+    $env:ANTHROPIC_DEFAULT_SONNET_MODEL = "<sonnet-tier-model-id>"
+    $env:ANTHROPIC_DEFAULT_HAIKU_MODEL = "<haiku-tier-model-id>"
+    $env:ANTHROPIC_MODEL = $env:ANTHROPIC_DEFAULT_SONNET_MODEL
+    ```
 
 If your workspace shows a different AI Assistant base URL, remove its trailing `/v1` for `ANTHROPIC_BASE_URL`.
 
 The three `ANTHROPIC_DEFAULT_*_MODEL` variables map Claude Code's Opus, Sonnet, and Haiku choices to your non-Anthropic models. You can use the same model ID for all three tiers. `ANTHROPIC_MODEL` starts the session with your chosen Sonnet-tier model. See [Claude Code model environment variables](https://code.claude.com/docs/en/model-config#environment-variables) for details.
 
-The `unset` lines clear conflicting Bedrock settings and credentials from your current shell. If you previously configured these variables in a Claude Code settings file, update or remove the overlapping entries in its `env` section too. See [Claude Code settings precedence](https://code.claude.com/docs/en/settings#settings-precedence) to check which configuration applies.
+The first lines, `unset` on macOS and Linux or `Remove-Item` on Windows, clear conflicting Bedrock settings and credentials from your current session. If you previously configured these variables in a Claude Code settings file, update or remove the overlapping entries in its `env` section too. See [Claude Code settings precedence](https://code.claude.com/docs/en/settings#settings-precedence) to check which configuration applies.
 
 For details on endpoint and credential settings, see [Claude Code gateway connection setup](https://code.claude.com/docs/en/llm-gateway-connect).
 
@@ -53,13 +69,13 @@ Run `/status` and confirm the following:
 
 Send a short prompt, such as `Reply with hello`, and confirm you receive a response.
 
-If the endpoint or credential source differs, check your shell variables and overlapping `env` entries in your Claude Code settings files. If the request fails, confirm your API key and model IDs match those in your workspace and that the models are available through this endpoint.
+If the endpoint or credential source differs, check the variables in your current session and overlapping `env` entries in your Claude Code settings files. If the request fails, confirm your API key and model IDs match those in your workspace and that the models are available through this endpoint.
 
 ## 3. Save your configuration
 
-Shell exports apply to the current terminal session and programs started from it. After the test succeeds, add the configuration block from step 1 to `~/.bashrc` for Bash or `~/.zshrc` for Zsh.
+The variables in step 1 apply to the current terminal session and programs started from it. After the test succeeds, save that configuration block so it loads in every new terminal.
 
-Replace any older Claude Code configuration in that file with the block you tested. Reload your shell profile or open a new terminal before launching Claude Code again.
+See [Saving Claude Code environment variables](api-key-claude-env-vars.md) for where to put it on macOS, Linux, and Windows.
 
 ## Update your API key
 

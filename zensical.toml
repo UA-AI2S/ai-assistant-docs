@@ -56,6 +56,7 @@ nav = [
       { "CLI Coding Assistants" = [
         { "Claude Code CLI" = "api/api-key-claude.md" },
         { "Claude Code with non-Anthropic models" = "api/api-key-claude-non-anthropic.md" },
+        { "Saving Environment Variables" = "api/api-key-claude-env-vars.md" },
       ]},
       { "IDEs" = [
         { "Claude Code for VS Code" = "api/api-key-claude-vscode.md" },
