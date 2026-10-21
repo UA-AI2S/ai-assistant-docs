@@ -3,3 +3,4 @@
 .envrc
 .direnv
 site
+.DS_Store
