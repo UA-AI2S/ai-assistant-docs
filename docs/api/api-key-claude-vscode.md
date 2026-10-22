@@ -34,7 +34,7 @@ Under **User** settings, enable **Claude Code: Disable Login Prompt**. This sett
 ![Disable Login Prompt enabled in VS Code user settings](../assets/vscode_claude_code_extension_settings_disable_login_prompt_dark.png#only-dark){: style="max-width:640px; width:100%; height:auto;"}
 ![Disable Login Prompt enabled in VS Code user settings](../assets/vscode_claude_code_extension_settings_disable_login_prompt_light.png#only-light){: style="max-width:640px; width:100%; height:auto;"}
 
-Remove older `ANTHROPIC_BASE_URL`, `ANTHROPIC_API_KEY`, and `AWS_BEARER_TOKEN_BEDROCK` entries from your Claude Code configuration and any shell profile used to launch VS Code. `AWS_BEARER_TOKEN_BEDROCK` can override your AI Assistant credential.
+Remove older `ANTHROPIC_BASE_URL`, `ANTHROPIC_API_KEY`, and `AWS_BEARER_TOKEN_BEDROCK` entries from your Claude Code configuration and from any shell or account-level variables that reach VS Code. `AWS_BEARER_TOKEN_BEDROCK` can override your AI Assistant credential. See [Saving Claude Code environment variables](api-key-claude-env-vars.md) for where those are stored.
 
 Choose one of the following configuration options. Keep your key, endpoint, and model settings in the location you choose, and remove conflicting entries from the other location.
 
