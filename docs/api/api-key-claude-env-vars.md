@@ -1,5 +1,7 @@
 # Saving Claude Code environment variables
 
+Follow this guide to persist your Claude Code configuration across terminal sessions, so you don't have to set it up each time.
+
 The setup guides ask you to run lines like this in a terminal:
 
 === "macOS and Linux"
