@@ -20,12 +20,12 @@
     ![Sign in to Microsoft Marketplace dialog](../assets/claude_outlook_marketplace_signin_dark.png#only-dark){: style="width:100%; height:auto;"}
     ![Sign in to Microsoft Marketplace dialog](../assets/claude_outlook_marketplace_signin.png#only-light){: style="width:100%; height:auto;"}
 
-3. On the launch page, click **Open in Outlook Web**. The add-in is now installed for your University of Arizona Microsoft account and available the next time you open any of these apps.
+3. On the launch page, click **Open in Outlook Web**. The add-in is now installed for your University of Arizona Microsoft account and available the next time you open Outlook.
 
     ![Claude for Outlook launch page with Open Outlook Web button](../assets/claude_outlook_store_launch_dark.png#only-dark){: style="width:100%; height:auto;"}
     ![Claude for Outlook launch page with Open Outlook Web button](../assets/claude_outlook_store_launch.png#only-light){: style="width:100%; height:auto;"}
 
-## 2. Open Claude in the app
+## 2. Open Claude in Outlook
 
 ### Desktop (Windows or Mac)
  Click the **...** (See more items) button near the right edge of the ribbon and select **Claude** from the **Claude** group at the bottom of the menu.
@@ -39,11 +39,11 @@
     To do this, first click the **...** (See more items) button near the right edge of the ribbon and select "Customize toolbar".
 
     ![Outlook desktop ribbon overflow menu showing the customize toolbar button](../assets/claude_outlook_desktop_customize_toolbar_dark.png#only-dark){: style="width:100%; height:auto;"}
-    ![Outlook desktop ribbon overflow menu showing the customize toolbar button](../assets/claude_outlook_customize_toolbar.png#only-light){: style="width:100%; height:auto;"}
+    ![Outlook desktop ribbon overflow menu showing the customize toolbar button](../assets/claude_outlook_desktop_customize_toolbar.png#only-light){: style="width:100%; height:auto;"}
 
     Then, in the dialog that opens, click and hold the Claude app and drag it up to the toolbar preview at the top of the dialog to pin the app to the toolbar.
     ![Dragging Claude app into toolbar in outlook desktop](../assets/claude_outlook_desktop_customize_toolbar_drag_dark.png#only-dark){: style="width:100%; height:auto;"}
-    ![Dragging Claude app into toolbar in outlook desktop](../assets/claude_outlook_customize_toolbar_drag.png#only-light){: style="width:100%; height:auto;"}
+    ![Dragging Claude app into toolbar in outlook desktop](../assets/claude_outlook_desktop_customize_toolbar_drag.png#only-light){: style="width:100%; height:auto;"}
 
     You should now have the Claude app in your toolbar.
     ![Claude app in toolbar in outlook desktop](../assets/claude_outlook_desktop_toolbar_with_claude_dark.png#only-dark){: style="width:100%; height:auto;"}
