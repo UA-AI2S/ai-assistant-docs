@@ -91,7 +91,6 @@ The first time you open the Claude sidebar, it prompts you to sign in.
     ![Connect another way screen with Gateway URL and Token fields](../assets/claude_outlook_web_connect_gateway_dark.png#only-dark){: style="width:100%; height:auto;"}
     ![Connect another way screen with Gateway URL and Token fields](../assets/claude_outlook_web_connect_gateway.png#only-light){: style="width:100%; height:auto;"}
 
-If your workspace shows a different AI Assistant base URL, use it for **Gateway URL** instead.
 
 ## 4. Start using Claude
 
@@ -104,4 +103,9 @@ Type a prompt, or click one of the starter skills, then press **Enter** or click
 
 ## Update your API key
 
-Open the Claude sidebar's settings, disconnect the current gateway connection, and repeat [Connect to AI Assistant](#3-connect-to-ai-assistant) with your new AI Assistant API key.
+In the Claude sidebar, click the **...** (more options) button near the top-right corner and select **Logout**.
+
+![Claude sidebar more options menu with Settings, Download Transcript, and Logout](../assets/claude_outlook_web_logout_dark.png#only-dark){: style="width:100%; height:auto;"}
+![Claude sidebar more options menu with Settings, Download Transcript, and Logout](../assets/claude_outlook_web_logout.png#only-light){: style="width:100%; height:auto;"}
+
+Then repeat [Connect to AI Assistant](#3-connect-to-ai-assistant) with your new AI Assistant API key.
