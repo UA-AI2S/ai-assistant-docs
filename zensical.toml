@@ -69,6 +69,9 @@ nav = [
       #  { "VSCode" = "api/api-key-vscode.md" },
       #  { "Jupyter" = "api/api-key-jupyter.md" },
       #]},
+      { "Microsoft Office Add-ins" = [
+        { "Claude for Microsoft 365" = "api/api-key-claude-ms365.md" },
+      ]},
       { "Libraries" = [
         { "LangChain" = "api/api-key-langchain.md" },
         { "LlamaIndex" = "api/api-key-llamaindex.md" },
