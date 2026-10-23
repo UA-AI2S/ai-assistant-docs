@@ -17,13 +17,6 @@ Claude Desktop is Anthropic's desktop chat application for Windows, macOS, and L
 
 ## 1. Enable Developer Mode
 
-The **Help** menu is in a different place depending on your operating system:
-
-- **macOS**: It's in the system menu bar at the top of the screen (next to the Apple icon), not inside the app window.
-- **Windows/Linux**: It's inside the app window's own menu bar.
-
-![Help menu location on macOS](../assets/claude_desktop_help_menu_macos.png){: style="width:100%; height:auto;"}
-
 1. Open the **Help** menu.
 2. Hover over **Troubleshooting**.
 3. Click **Enable Developer Mode...**.
