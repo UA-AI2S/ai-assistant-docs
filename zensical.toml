@@ -33,12 +33,7 @@ site_url = "https://ua-ai2s.github.io/ai-assistant-docs/"
 # fragment.
 #
 # Read more: https://zensical.org/docs/setup/basics/#copyright
-copyright = """
-<span class="footer-logo footer-logo-light" role="img" aria-label="University of Arizona Responsible Artificial Intelligence"></span>
-<span class="footer-logo footer-logo-dark" role="img" aria-label="University of Arizona Responsible Artificial Intelligence"></span>
-<br>
-&copy; 2026 The Arizona Board of Regents on behalf of The University of Arizona
-"""
+copyright = "&copy; 2026 The Arizona Board of Regents on behalf of The University of Arizona"
 
 repo_name = "AI Assistant Docs"
 repo_url = "https://github.com/UA-AI2S/ai-assistant-docs"
@@ -123,7 +118,7 @@ extra_css = ["stylesheets/extra.css"]
 # Read more:
 # - https://zensical.org/docs/customization/#extending-the-theme
 #
-#custom_dir = "overrides"
+custom_dir = "overrides"
 
 # With the "favicon" option you can set your own image to use as the icon
 # browsers will use in the browser title bar or tab bar. The path provided
