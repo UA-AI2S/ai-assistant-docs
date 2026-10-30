@@ -1,0 +1,19 @@
+<div class="md-copyright">
+  <div class="md-copyright__logo">
+    <a href="https://responsibleai.arizona.edu/" target="_blank" rel="noopener" aria-label="Office of Responsible AI at the University of Arizona">
+      <img class="footer-logo footer-logo-light" src="{{ 'assets/ua-rai-logo.png' | url }}" alt="University of Arizona Responsible Artificial Intelligence">
+      <img class="footer-logo footer-logo-dark" src="{{ 'assets/ua-rai-logo_dark.png' | url }}" alt="University of Arizona Responsible Artificial Intelligence">
+    </a>
+  </div>
+  {% if config.copyright %}
+    <div class="md-copyright__highlight">
+      {{ config.copyright }}
+    </div>
+  {% endif %}
+  {% if not config.extra.generator == false %}
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  {% endif %}
+</div>
