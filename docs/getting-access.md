@@ -1,6 +1,6 @@
 # Getting Access
 
-AI Assistant is open to all University of Arizona faculty, staff, and Graduate Research Assistants (GRAs). Undergraduate access will be available later this fall.
+AI Assistant is open to all University of Arizona faculty, staff, and Graduate Research Assistants (GRAs). Student access will be available later this fall.
 
 ## Signing In
 
