@@ -1,19 +1,18 @@
 # Getting Access
 
-!!! warning "Beta"
-    AI Assistant is currently in a limited beta. To request beta access, email **ai-assistant-support@list.arizona.edu**.
+AI Assistant is open to all University of Arizona faculty, staff, and Graduate Research Assistants (GRAs). Undergraduate access will be available later this fall.
 
-AI Assistant is available to University of Arizona faculty, staff, and students.
+## Signing In
 
-## Personal Workspace
+Log in at [ai-assistant.responsibleai.arizona.edu](https://ai-assistant.responsibleai.arizona.edu/) with your University of Arizona NetID (WebAuth/SSO). Your Personal Workspace is created automatically the first time you sign in.
 
-All U of A faculty, staff, and students get a monthly allocation of LLM usage via their Personal Workspace. To access, log in at [ai-assistant.responsibleai.arizona.edu](https://ai-assistant.responsibleai.arizona.edu/) and your Personal Workspace will be created automatically.
+## Your Personal Workspace
 
-## Joining an Existing Workspace
+Every eligible user gets a Personal Workspace with:
 
-If your instructor or team lead has already set up a workspace, they can add you as a member using your University of Arizona NetID. Once added, sign in at [ai-assistant.responsibleai.arizona.edu](https://ai-assistant.responsibleai.arizona.edu/) and your workspace will appear on the dashboard.
+- **Your own budget** — $200 per month of LLM usage, which resets on the first day of each month. Your dashboard shows how much you've used and how much remains.
+- **Default models** — A set of models available to all users. See [Current Models](models-current.md).
+- **An API key** — Copy your personal API key and use it with external tools. See [Obtaining your AI Assistant API Key](api/api-key.md).
 
-## Requirements
-
-- A University of Arizona NetID
-- Institutional login credentials (WebAuth/SSO)
+!!! note "Team workspaces coming soon"
+    Need more than $200/month? Team workspaces are coming soon. Instructors and team leads will be able to fund additional usage for their students and members with a U of A KFS account, and add members by NetID.

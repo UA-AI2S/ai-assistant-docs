@@ -11,3 +11,16 @@
 [data-md-color-scheme="slate"] .md-header {
   background-color: #0b1330;
 }
+
+/* Footer logo: navy version on light scheme, white version on dark scheme */
+.md-footer .md-copyright img.footer-logo {
+  height: 3rem !important;
+  max-height: 3rem !important;
+  width: auto !important;
+  margin: 1.5rem 0;
+}
+
+[data-md-color-scheme="default"] .footer-logo-dark,
+[data-md-color-scheme="slate"] .footer-logo-light {
+  display: none !important;
+}

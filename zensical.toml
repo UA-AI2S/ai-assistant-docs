@@ -33,7 +33,12 @@ site_url = "https://ua-ai2s.github.io/ai-assistant-docs/"
 # fragment.
 #
 # Read more: https://zensical.org/docs/setup/basics/#copyright
-copyright = "&copy; 2026 The Arizona Board of Regents on behalf of The University of Arizona"
+copyright = """
+<img class="footer-logo footer-logo-light" src="/assets/ua-rai-logo.png" alt="University of Arizona Responsible Artificial Intelligence">
+<img class="footer-logo footer-logo-dark" src="/assets/ua-rai-logo_dark.png" alt="University of Arizona Responsible Artificial Intelligence">
+<br>
+&copy; 2026 The Arizona Board of Regents on behalf of The University of Arizona
+"""
 
 repo_name = "AI Assistant Docs"
 repo_url = "https://github.com/UA-AI2S/ai-assistant-docs"
@@ -42,10 +47,8 @@ edit_uri = "edit/main/docs/"
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
   { "Home" = [
-    { "Welcome" = "index.md" },
-    { "About AI Assistant" = "about.md" },
+    { "Home" = "index.md" },
     { "Getting Access" = "getting-access.md" },
-    { "Your Personal Workspace" = "personal-workspace.md" },
     { "Current Models" = "models-current.md" },
     #{ "FAQ" = "faq.md" },
   ]},
@@ -80,10 +83,10 @@ nav = [
     ]},
     { "Troubleshooting Errors" = "api/troubleshooting.md" },
   ]},
-  { "For Instructors" = [
-    { "Getting Started" = "instructors/getting-started.md" },
-    { "Managing a Workspace" = "instructors/settings.md" },
-  ]},
+  # { "For Instructors" = [
+  #   { "Getting Started" = "instructors/getting-started.md" },
+  #   { "Managing a Workspace" = "instructors/settings.md" },
+  # ]},
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
@@ -216,7 +219,7 @@ features = [
     # When section index pages are enabled, documents can be directly attached
     # to sections, which is particularly useful for providing overview pages.
     # https://zensical.org/docs/setup/navigation/#section-index-pages
-    "navigation.indexes",
+    #"navigation.indexes",
 
     # When instant navigation is enabled, clicks on all internal links will be
     # intercepted and dispatched via XHR without fully reloading the page.
