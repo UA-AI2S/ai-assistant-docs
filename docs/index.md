@@ -15,8 +15,8 @@
 
 ## Getting Started
 
-- **[Getting Access](getting-access.md)** — How to access AI Assistant
-- **[Your API Key](api/api-key.md)** — Get your API key and connect it to Claude Code, Claude Desktop, Microsoft 365, and more
+- **[Get Access](getting-access.md)** — How to access AI Assistant
+- **[Obtain Your API Key](api/api-key.md)** — Get your API key and connect it to Claude Code, Claude Desktop, Microsoft 365, and more
 - **[Current Models](models-current.md)** — Available LLMs on the platform
 
 Questions or issues? Email **ai-assistant-support@list.arizona.edu**.
