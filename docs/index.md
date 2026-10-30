@@ -1,19 +1,22 @@
 # Welcome
 
-!!! warning "Beta"
-    AI Assistant is currently in beta and available to beta testers only. If you would encounter bugs or unexpected behavior, please email **ai-assistant-support@list.arizona.edu**.
+**AI Assistant** is an AI integration platform built by the [**Office of Responsible AI**](https://responsibleai.arizona.edu/){target=\_new} at The University of Arizona. It provides API access to leading large language models (LLMs) from Anthropic, OpenAI, and Google with built-in budget controls. Models are hosted on Amazon Bedrock.
 
-The University of Arizona AI Assistant is an open source platform that provides access to commercial and on-premise large language models (LLMs) with built-in budget and access controls. It is designed for teams, labs, and courses at the University of Arizona.
 
-## Where to Go
+!!! info "Availability"
+    AI Assistant is open to all University of Arizona faculty, staff, and Graduate Research Assistants (GRAs). Student access will be available later this fall. If you encounter bugs or unexpected behavior, please email **ai-assistant-support@list.arizona.edu**.
 
-- **[About AI Assistant](about.md)** — A brief overview of AI Assistant and what it offers.
-- **[API](api/api-key.md)** — Obtain your API key and use it with development tools.
-- **[For Instructors](instructors/getting-started.md)** — Set up and manage workspaces for your courses and teams.
+## Features
 
-## Quick Links
+- **$200/month of individual usage** — Every faculty member, staff member, and GRA gets $200 per month of usage in their personal workspace.
+- **Use your API key with external tools** — Connect your API key to tools like Claude Code, Claude Desktop, Microsoft 365, or any OpenAI-compatible tool.
+- **Private and secure** — Your data remains within University of Arizona-controlled infrastructure. Your prompts and chats are not retained and are never used to train models.
+- **Team Workspaces (coming soon)** — Shared workspaces for courses, labs, and teams, with per-member budget controls. Instructors and team leads will be able to fund additional usage for their students or team members with a U of A KFS account.
 
-- [Getting Access](getting-access.md) — How to request access to the AI Assistant
+## Getting Started
 
-- [Current Models](models-current.md) — Available LLMs on the platform
-- Contact Support — Email **ai-assistant-support@list.arizona.edu**
+- **[Get Access](getting-access.md)** — How to access AI Assistant
+- **[Obtain Your API Key](api/api-key.md)** — Get your API key and connect it to Claude Code, Claude Desktop, Microsoft 365, and more
+- **[Current Models](models-current.md)** — Available LLMs on the platform
+
+Questions or issues? Email **ai-assistant-support@list.arizona.edu**.

@@ -11,3 +11,30 @@
 [data-md-color-scheme="slate"] .md-header {
   background-color: #0b1330;
 }
+
+/* Footer logo: navy version on light scheme, white version on dark scheme.
+   Background images are used so the URLs resolve relative to this stylesheet,
+   which works wherever the site is served from (e.g. /docs). */
+.md-footer .md-copyright .footer-logo {
+  display: block;
+  height: 3rem;
+  margin: 1.5rem 0;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+}
+
+.footer-logo-light {
+  aspect-ratio: 856 / 148;
+  background-image: url("../assets/ua-rai-logo.png");
+}
+
+.footer-logo-dark {
+  aspect-ratio: 776 / 136;
+  background-image: url("../assets/ua-rai-logo_dark.png");
+}
+
+[data-md-color-scheme="default"] .md-footer .md-copyright .footer-logo-dark,
+[data-md-color-scheme="slate"] .md-footer .md-copyright .footer-logo-light {
+  display: none;
+}
